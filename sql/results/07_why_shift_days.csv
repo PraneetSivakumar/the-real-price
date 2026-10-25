@@ -1,0 +1,3 @@
+day_type,takeaway_orders,takeaway_spend_gbp,orders_after_9pm
+"Non-shift day",24,546.07,5
+"Shift day",39,902.92,39

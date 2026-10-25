@@ -1,0 +1,13 @@
+time_band,transactions,spend_gbp
+"Evening (17-22)",181,3219.19
+"Afternoon (12-17)",130,1840.44
+"Late night (22-05)",59,1671.53
+"Morning (05-12)",73,680.45
+weekday,transactions,spend_gbp
+Saturday,66,1660.67
+Friday,66,1367.93
+Sunday,62,1099.06
+Wednesday,48,899.88
+Thursday,80,834.43
+Tuesday,80,777.31
+Monday,41,772.33

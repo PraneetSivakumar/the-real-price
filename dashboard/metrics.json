@@ -1,0 +1,118 @@
+{
+  "total_spend": 18245.78,
+  "total_hours": 1435.5,
+  "months": 9.8,
+  "spend_type": {
+    "Essential": 9665.26,
+    "Investment": 756.83,
+    "Lifestyle": 6528.26,
+    "Leakage": 1452.65
+  },
+  "top_merchants": [
+    {
+      "merchant": "Trainline",
+      "spend": 1465.4,
+      "count": 50
+    },
+    {
+      "merchant": "Uber Eats",
+      "spend": 779.85,
+      "count": 34
+    },
+    {
+      "merchant": "Aldi",
+      "spend": 754.32,
+      "count": 24
+    },
+    {
+      "merchant": "Tesco",
+      "spend": 642.23,
+      "count": 22
+    },
+    {
+      "merchant": "Amazon",
+      "spend": 636.18,
+      "count": 25
+    }
+  ],
+  "income_drop_pct": 44.8,
+  "spend_drop_pct": 21.5,
+  "peak_balance": {
+    "date": "2026-06-28",
+    "gbp": 3694.44
+  },
+  "end_balance": 2000.15,
+  "most_expensive_hour": 20,
+  "late_night_spend": 1671.53,
+  "payday": {
+    "post_per_day": 34.9,
+    "rest_per_day": 21.53,
+    "ratio": 1.62,
+    "p_value": 0.0008
+  },
+  "takeaway": {
+    "total": 1448.99,
+    "orders": 63,
+    "late_shift_orders": 39,
+    "late_shift_spend": 902.92
+  },
+  "apple_pay_share": 63.8,
+  "topup": {
+    "trips": 81,
+    "spend": 879.47,
+    "share_of_groceries": 33.6
+  },
+  "late_online": 1587.17,
+  "protein_per_20g": {
+    "Protein (bulk online)": 0.42,
+    "Protein (small tub, in-store)": 1.27,
+    "Protein bars & shakes": 2.11
+  },
+  "hours_headlines": {
+    "Takeaways after shifts": 71.0,
+    "Late-night spending": 131.5,
+    "Top-up shops": 69.2,
+    "All subscriptions": 65.2
+  },
+  "plan": [
+    {
+      "rule": "Cancel zombie & duplicate subscriptions (Disney+, Google One)",
+      "by_31_dec": 17.58,
+      "per_year": 95.76,
+      "hours_per_year": 8.0
+    },
+    {
+      "rule": "Shift-day meal prep: replace 3 in 4 late takeaways with a \u00a33 prepared meal",
+      "by_31_dec": 184.08,
+      "per_year": 1002.81,
+      "hours_per_year": 79.0
+    },
+    {
+      "rule": "Halve top-up trips; buy it in the weekly shop (assume 25% cheaper there)",
+      "by_31_dec": 26.74,
+      "per_year": 145.68,
+      "hours_per_year": 11.0
+    },
+    {
+      "rule": "Protein: bulk only (in-store tubs cost ~3x more per gram)",
+      "by_31_dec": 24.07,
+      "per_year": 131.11,
+      "hours_per_year": 10.0
+    },
+    {
+      "rule": "24-hour basket rule for late-night online shopping (assume half never bought)",
+      "by_31_dec": 53.09,
+      "per_year": 289.21,
+      "hours_per_year": 23.0
+    }
+  ],
+  "plan_total_year": 1664.57,
+  "plan_total_dec": 305.56,
+  "runway": {
+    "net_per_day": -14.13,
+    "days": 142,
+    "zero_date": "2027-03-15",
+    "days_with_plan": 209,
+    "zero_date_with_plan": "2027-05-21"
+  }
+}

@@ -1,0 +1,8 @@
+payment_method,transactions,spend_gbp,avg_gbp
+"Apple Pay",375,4725.4,12.6
+"Debit card",127,2825.51,22.25
+Cash,10,310.0,31.0
+"Bank transfer",1,120.0,120.0
+subcategory,trips,spend_gbp,avg_trip_gbp,pct_of_groceries
+"Top-up shop",81,879.47,10.86,33.6
+"Weekly shop",52,1735.3,33.37,66.4

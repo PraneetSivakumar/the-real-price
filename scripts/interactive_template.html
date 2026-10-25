@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Real Price</title>
+<style>
+:root {
+  --bg: #f6f4ef; --panel: #ffffff; --ink: #1d1b16; --muted: #6b665c; --line: #e4dfd4;
+  --ess: #2a7f62; --inv: #2f6fb5; --life: #c99700; --leak: #c8442f; --accent: #6b3fd4; --pay: #e0a800;
+  --heat0: #efeadf; --chip: #efeadf;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #14131a; --panel: #1d1c25; --ink: #f2efe8; --muted: #a49f95; --line: #2e2c38;
+    --ess: #3ddc97; --inv: #5fa8ff; --life: #ffd166; --leak: #ff6b6b; --accent: #a78bfa; --pay: #ffd166;
+    --heat0: #26242f; --chip: #2a2834;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #14131a; --panel: #1d1c25; --ink: #f2efe8; --muted: #a49f95; --line: #2e2c38;
+  --ess: #3ddc97; --inv: #5fa8ff; --life: #ffd166; --leak: #ff6b6b; --accent: #a78bfa; --pay: #ffd166;
+  --heat0: #26242f; --chip: #2a2834;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--ink); font: 15px/1.45 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+.wrap { max-width: 1180px; margin: 0 auto; padding: 20px 16px 40px; }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 12px; align-items: end; margin-bottom: 14px; }
+h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); letter-spacing: -.02em; }
+h1 span { color: var(--accent); }
+.sub { color: var(--muted); font-size: .92rem; }
+.badge { display: inline-block; font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; border: 1px solid var(--leak); color: var(--leak); border-radius: 999px; padding: 2px 8px; margin-left: 6px; vertical-align: 3px; }
+.controls { position: sticky; top: 0; z-index: 5; background: var(--bg); padding: 10px 0; border-bottom: 1px solid var(--line); margin-bottom: 16px; display: flex; flex-wrap: wrap; gap: 10px 18px; align-items: center; }
+.group { display: flex; gap: 4px; align-items: center; flex-wrap: wrap; }
+.group label.t { font-size: .75rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-right: 4px; }
+button.seg, button.chip { border: 1px solid var(--line); background: var(--chip); color: var(--ink); border-radius: 999px; padding: 5px 11px; font: inherit; font-size: .85rem; cursor: pointer; }
+button.seg.on { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+button.chip { opacity: .45; }
+button.chip.on { opacity: 1; }
+button.chip i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 6px; }
+input[type=number] { width: 72px; padding: 4px 6px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: inherit; }
+.grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 14px; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px; min-width: 0; }
+.card h2 { font-size: 1rem; margin-bottom: 2px; }
+.card .hint { color: var(--muted); font-size: .82rem; margin-bottom: 10px; }
+.s12 { grid-column: span 12; } .s8 { grid-column: span 8; } .s7 { grid-column: span 7; } .s6 { grid-column: span 6; } .s5 { grid-column: span 5; } .s4 { grid-column: span 4; } .s3 { grid-column: span 3; }
+@media (max-width: 900px) { .s8, .s7, .s6, .s5, .s4 { grid-column: span 12; } .s3 { grid-column: span 6; } }
+@media (max-width: 480px) { .s3 { grid-column: span 12; } }
+@media (max-width: 700px) { .controls { position: static; } .result { grid-template-columns: 1fr; } }
+.kpi .v { font-size: clamp(1.5rem, 3.4vw, 2.1rem); font-weight: 750; letter-spacing: -.02em; }
+.kpi .l { color: var(--muted); font-size: .82rem; }
+.kpi .x { font-size: .82rem; margin-top: 4px; }
+svg { width: 100%; height: auto; display: block; overflow: visible; }
+svg text { fill: var(--muted); font-size: 11px; }
+#clock svg { max-width: 380px; margin: 0 auto; }
+.tip { position: fixed; pointer-events: none; background: var(--ink); color: var(--bg); font-size: .8rem; padding: 6px 9px; border-radius: 8px; opacity: 0; transition: opacity .1s; z-index: 20; max-width: 260px; }
+.list { max-height: 260px; overflow: auto; font-size: .86rem; }
+.list table { width: 100%; border-collapse: collapse; }
+.list td { padding: 6px 4px; border-bottom: 1px solid var(--line); }
+.list td:last-child { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.slider { display: grid; grid-template-columns: 1fr 64px; gap: 4px 10px; align-items: center; margin: 9px 0; font-size: .86rem; }
+.slider input[type=range] { grid-column: 1 / -1; width: 100%; accent-color: var(--accent); }
+.slider b { text-align: right; }
+.toggle { display: flex; justify-content: space-between; align-items: center; font-size: .86rem; margin: 9px 0; }
+.result { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 10px; }
+.result div { background: var(--chip); border-radius: 12px; padding: 10px; }
+.result b { display: block; font-size: 1.25rem; }
+.result span { font-size: .75rem; color: var(--muted); }
+.swap { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.swap div { flex: 1 1 130px; background: var(--chip); border-radius: 12px; padding: 10px; text-align: center; }
+.swap b { display: block; font-size: 1.5rem; }
+.swap span { font-size: .78rem; color: var(--muted); }
+.pill { font-size: .78rem; color: var(--accent); cursor: pointer; text-decoration: underline; background: none; border: 0; font-family: inherit; }
+footer { margin-top: 26px; color: var(--muted); font-size: .8rem; text-align: center; }
+.legend { display: flex; gap: 12px; flex-wrap: wrap; font-size: .78rem; color: var(--muted); margin-top: 6px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div>
+    <h1>The Real <span>Price</span><span class="badge">simulated data</span></h1>
+    <p class="sub">What my spending cost in hours of my life · 1 Jan – 25 Oct 2026 · 707 transactions</p>
+  </div>
+  <button class="seg" id="themeBtn" title="Switch light / dark">◐ Theme</button>
+</header>
+
+<div class="controls">
+  <div class="group" id="unitGroup"><label class="t">Show in</label>
+    <button class="seg on" data-u="gbp">£</button><button class="seg" data-u="hours">Hours of work</button><button class="seg" data-u="shifts">Shifts</button>
+  </div>
+  <div class="group"><label class="t">Wage £/h</label><input type="number" id="wage" step="0.01" min="5" max="60"></div>
+  <div class="group" id="periodGroup"><label class="t">Period</label>
+    <button class="seg on" data-p="all">All</button><button class="seg" data-p="0">Internship</button><button class="seg" data-p="1">After</button>
+  </div>
+  <div class="group" id="shiftGroup"><label class="t">Days</label>
+    <button class="seg on" data-s="all">All</button><button class="seg" data-s="1">Shift days</button><button class="seg" data-s="0">Days off</button>
+  </div>
+  <div class="group" id="typeGroup"><label class="t">Spend type</label></div>
+  <div class="group" id="catState"></div>
+</div>
+
+<div class="grid">
+  <div class="card kpi s3"><div class="l">Total spent</div><div class="v" id="kTotal"></div><div class="x" id="kTotalX"></div></div>
+  <div class="card kpi s3"><div class="l">Leakage <span title="Money lost without value: late shift-day takeaways, unused subscriptions, in-store protein tubs, untracked cash">ⓘ</span></div><div class="v" id="kLeak" style="color:var(--leak)"></div><div class="x" id="kLeakX"></div></div>
+  <div class="card kpi s3"><div class="l">Late-night tax (22:00–05:00)</div><div class="v" id="kLate"></div><div class="x" id="kLateX"></div></div>
+  <div class="card kpi s3"><div class="l">Payday effect</div><div class="v" id="kPay"></div><div class="x" id="kPayX"></div></div>
+
+  <div class="card s8">
+    <h2>The year as a calendar</h2>
+    <p class="hint">Day-to-day spending (rent, bills and auto-renewing subscriptions left out). Click a day to see what happened.</p>
+    <div id="cal"></div>
+    <div class="legend"><span><i style="background:var(--pay);border-radius:50%"></i>payday</span><span><i style="border:1.5px solid var(--accent)"></i>shift day</span><span id="calScale"></span></div>
+  </div>
+  <div class="card s4">
+    <h2 id="dayTitle">Pick a day</h2>
+    <p class="hint" id="dayHint">Click any square on the calendar.</p>
+    <div class="list" id="dayList"></div>
+  </div>
+
+  <div class="card s5">
+    <h2>The 24-hour spending clock</h2>
+    <p class="hint">When do I spend by choice? Each spoke is an hour (discretionary spending only — Lifestyle and Leakage).</p>
+    <div id="clock"></div>
+  </div>
+  <div class="card s7">
+    <h2>Where it goes</h2>
+    <p class="hint">Click a category to filter the whole dashboard. Net of refunds.</p>
+    <div id="cats"></div>
+  </div>
+
+  <div class="card s6">
+    <h2>The payday curve</h2>
+    <p class="hint">Average discretionary spend per calendar day, by days since the last payday.</p>
+    <div id="payday"></div>
+  </div>
+  <div class="card s6">
+    <h2>Money in, money out</h2>
+    <p class="hint">Monthly income vs spending (October = 1–25 Oct). Income fell when the internship ended; spending barely did.</p>
+    <div id="monthly"></div>
+    <div class="legend"><span><i style="background:var(--ess)"></i>income</span><span><i style="background:var(--leak)"></i>spending (with your filters)</span></div>
+  </div>
+
+  <div class="card s7">
+    <h2>Rewrite the ending</h2>
+    <p class="hint">Move the sliders. The plan saves money, gives hours back and pushes out the day my savings hit £0.</p>
+    <div id="runway"></div>
+    <div class="result">
+      <div><b id="rDec"></b><span>saved by 31 Dec</span></div>
+      <div><b id="rYear"></b><span>saved per year</span></div>
+      <div><b id="rZero"></b><span>savings hit £0 with the plan</span></div>
+    </div>
+    <p class="hint" id="rNote" style="margin-top:8px"></p>
+  </div>
+  <div class="card s5">
+    <h2>The plan</h2>
+    <p class="hint">Assumptions are yours to change.</p>
+    <div class="toggle"><span>Cancel Disney+ &amp; Google One</span><input type="checkbox" id="wZombie" checked></div>
+    <div class="slider"><span>Late shift takeaways swapped for meal prep</span><b id="wMealV"></b><input type="range" id="wMeal" min="0" max="100" value="75"></div>
+    <div class="slider"><span>Cost of a prepared meal</span><b id="wCostV"></b><input type="range" id="wCost" min="1" max="8" step="0.5" value="3"></div>
+    <div class="slider"><span>Top-up trips moved to the weekly shop</span><b id="wTopV"></b><input type="range" id="wTop" min="0" max="100" value="50"></div>
+    <div class="slider"><span>Weekly shop cheaper than a top-up by</span><b id="wDiscV"></b><input type="range" id="wDisc" min="0" max="50" value="25"></div>
+    <div class="slider"><span>Late-night online buys avoided (24-hour rule)</span><b id="wOnlineV"></b><input type="range" id="wOnline" min="0" max="100" value="50"></div>
+    <div class="toggle"><span>Protein in bulk only</span><input type="checkbox" id="wBulk" checked></div>
+  </div>
+
+  <div class="card s7">
+    <h2>The leakage list</h2>
+    <p class="hint">Every transaction tagged as Leakage, biggest first — with its real price.</p>
+    <div class="list" id="leakList"></div>
+  </div>
+  <div class="card s5">
+    <h2>The swap shop</h2>
+    <p class="hint">What else could this money have been?</p>
+    <div class="group" id="swapGroup"></div>
+    <div class="swap" id="swapOut"></div>
+  </div>
+</div>
+<footer>The Real Price · interactive dashboard · built on <b>simulated</b> data modelled on my lifestyle · Praneet Sivakumar · praneetsivakumar.com</footer>
+</div>
+<div class="tip" id="tip"></div>
+
+<script>
+const D = /*__DATA__*/null;
+const K = Object.fromEntries(D.keys.map((k, i) => [k, i]));
+const TYPES = ["Essential", "Investment", "Lifestyle", "Leakage"];
+const TCOL = { Essential: "--ess", Investment: "--inv", Lifestyle: "--life", Leakage: "--leak" };
+const S = { unit: "gbp", wage: D.wage, period: "all", shift: "all", types: new Set(TYPES), cat: null, swap: "late" };
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const $ = id => document.getElementById(id);
+const NS = "http://www.w3.org/2000/svg";
+const tip = $("tip");
+const AUTO = new Set(["Direct debit", "Standing order"]);
+
+// ---------- helpers ----------
+const rows = D.tx.map(r => ({
+  date: r[K.date], time: r[K.time], merchant: r[K.merchant], cat: r[K.category], sub: r[K.subcategory],
+  amt: r[K.direction] === "Debit" ? r[K.amount] : -r[K.amount], dir: r[K.direction], pm: r[K.payment_method],
+  ch: r[K.channel], type: r[K.spend_type] === "Refund" ? "Lifestyle" : r[K.spend_type], shift: r[K.shift_day],
+  period: r[K.period], hour: r[K.hour], income: r[K.spend_type] === "Income"
+}));
+function fmt(v, short) {
+  if (S.unit === "hours") return `${(v / S.wage).toLocaleString("en-GB", { maximumFractionDigits: v / S.wage < 10 ? 1 : 0 })} h`;
+  if (S.unit === "shifts") return `${(v / S.wage / 7.5).toLocaleString("en-GB", { maximumFractionDigits: 1 })} shifts`;
+  return "£" + v.toLocaleString("en-GB", { maximumFractionDigits: short || Math.abs(v) >= 100 ? 0 : 2 });
+}
+const gbp = v => "£" + Math.round(v).toLocaleString("en-GB");
+const hrs = v => `${Math.round(v / S.wage).toLocaleString("en-GB")} h`;
+function filtered() {
+  return rows.filter(r => !r.income
+    && (S.period === "all" || String(r.period) === S.period)
+    && (S.shift === "all" || String(r.shift) === S.shift)
+    && S.types.has(r.type)
+    && (!S.cat || r.cat === S.cat));
+}
+const sum = a => a.reduce((s, r) => s + r.amt, 0);
+function el(tag, attrs, parent) { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function svg(w, h, host) { host.innerHTML = ""; return el("svg", { viewBox: `0 0 ${w} ${h}`, role: "img" }, host); }
+function hover(node, html) {
+  node.addEventListener("mousemove", e => { tip.innerHTML = html(); tip.style.opacity = 1; tip.style.left = Math.min(e.clientX + 12, innerWidth - 270) + "px"; tip.style.top = (e.clientY + 12) + "px"; });
+  node.addEventListener("mouseleave", () => tip.style.opacity = 0);
+}
+const dayKey = d => d.toISOString().slice(0, 10);
+const addDays = (s, n) => { const d = new Date(s + "T12:00:00Z"); d.setUTCDate(d.getUTCDate() + n); return dayKey(d); };
+const niceDate = s => new Date(s + "T12:00:00Z").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric" });
+const paydays = [...new Set(rows.filter(r => r.income).map(r => r.date))].sort();
+const shiftDates = new Set(rows.filter(r => r.shift).map(r => r.date));
+
+// ---------- controls ----------
+$("wage").value = D.wage;
+$("wage").addEventListener("input", e => { const v = parseFloat(e.target.value); if (v >= 5) { S.wage = v; render(); } });
+function seg(groupId, attr, key) {
+  $(groupId).querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+    $(groupId).querySelectorAll("button").forEach(x => x.classList.remove("on")); b.classList.add("on");
+    S[key] = b.dataset[attr]; render();
+  }));
+}
+seg("unitGroup", "u", "unit"); seg("periodGroup", "p", "period"); seg("shiftGroup", "s", "shift");
+TYPES.forEach(t => {
+  const b = document.createElement("button"); b.className = "chip on"; b.innerHTML = `<i style="background:var(${TCOL[t]})"></i>${t}`;
+  b.addEventListener("click", () => { S.types.has(t) ? S.types.delete(t) : S.types.add(t); if (!S.types.size) S.types.add(t); b.classList.toggle("on", S.types.has(t)); render(); });
+  $("typeGroup").appendChild(b);
+});
+$("themeBtn").addEventListener("click", () => {
+  const dark = matchMedia("(prefers-color-scheme: dark)").matches;
+  const cur = document.documentElement.dataset.theme || (dark ? "dark" : "light");
+  document.documentElement.dataset.theme = cur === "dark" ? "light" : "dark"; render();
+});
+
+// ---------- KPIs ----------
+function kpis(f) {
+  const total = sum(f), leak = sum(f.filter(r => r.type === "Leakage"));
+  const disc = f.filter(r => (r.type === "Lifestyle" || r.type === "Leakage") && r.cat !== "Subscriptions" && !AUTO.has(r.pm));
+  const late = sum(disc.filter(r => r.hour >= 22 || r.hour < 5));
+  $("kTotal").textContent = fmt(total); $("kTotalX").textContent = S.unit === "gbp" ? `= ${hrs(total)} of work` : `= ${gbp(total)}`;
+  $("kLeak").textContent = fmt(leak); $("kLeakX").textContent = total ? `${(100 * leak / total).toFixed(0)}% of spending` : "";
+  $("kLate").textContent = fmt(late); $("kLateX").textContent = `${disc.filter(r => r.hour >= 22 || r.hour < 5).length} late purchases`;
+  const pc = paydayCurve(f);
+  const post = pc.post, rest = pc.rest;
+  $("kPay").textContent = rest > 0 ? `${(post / rest).toFixed(1)}×` : "–";
+  $("kPayX").textContent = `${fmt(post)}/day just after payday vs ${fmt(rest)}`;
+  $("catState").innerHTML = S.cat ? `<button class="pill" id="clearCat">✕ ${S.cat}</button>` : "";
+  if (S.cat) $("clearCat").onclick = () => { S.cat = null; render(); };
+}
+const avg = a => a.length ? a.reduce((s, x) => s + x, 0) / a.length : 0;
+
+// ---------- calendar ----------
+function calendar(f) {
+  const host = $("cal"); const start = "2025-12-29"; const cs = 15, gap = 3, left = 26, top = 18;
+  const daily = {}; f.filter(r => r.cat !== "Housing & Bills" && r.cat !== "Subscriptions" && !AUTO.has(r.pm)).forEach(r => daily[r.date] = (daily[r.date] || 0) + r.amt);
+  const vals = Object.values(daily).filter(v => v > 0).sort((a, b) => a - b); const cap = vals[Math.floor(vals.length * 0.95)] || 1;
+  const weeks = 44; const s = svg(left + weeks * (cs + gap), top + 7 * (cs + gap) + 4, host);
+  ["Mon", "", "Wed", "", "Fri", "", "Sun"].forEach((d, i) => el("text", { x: 0, y: top + i * (cs + gap) + 11 }, s).textContent = d);
+  const accent = css("--accent"), heat0 = css("--heat0"), leak = css("--leak"), pay = css("--pay");
+  let lastMonth = -1;
+  for (let w = 0; w < weeks; w++) for (let d = 0; d < 7; d++) {
+    const key = addDays(start, w * 7 + d); if (key < "2026-01-01" || key > D.lastDate) continue;
+    const mo = +key.slice(5, 7);
+    if (mo !== lastMonth && d === 0) { el("text", { x: left + w * (cs + gap), y: 10 }, s).textContent = new Date(key + "T12:00:00Z").toLocaleDateString("en-GB", { month: "short" }); lastMonth = mo; }
+    const v = daily[key] || 0, t = Math.min(v / cap, 1);
+    const x = left + w * (cs + gap), y = top + d * (cs + gap);
+    const r = el("rect", { x, y, width: cs, height: cs, rx: 3, fill: v > 0 ? leak : heat0, "fill-opacity": v > 0 ? 0.15 + 0.85 * t : 1, style: "cursor:pointer" }, s);
+    if (shiftDates.has(key)) el("rect", { x: x + .75, y: y + .75, width: cs - 1.5, height: cs - 1.5, rx: 3, fill: "none", stroke: accent, "stroke-width": 1.4, "pointer-events": "none" }, s);
+    if (paydays.includes(key)) el("circle", { cx: x + cs / 2, cy: y + cs / 2, r: 3, fill: pay, "pointer-events": "none" }, s);
+    hover(r, () => `<b>${niceDate(key)}</b><br>${fmt(v)}${shiftDates.has(key) ? " · shift day" : ""}${paydays.includes(key) ? " · payday" : ""}`);
+    r.addEventListener("click", () => showDay(key));
+  }
+  $("calScale").innerHTML = `<i style="background:${leak};opacity:.25"></i>less <i style="background:${leak}"></i>more (top 5% capped at ${fmt(cap)})`;
+}
+function showDay(key) {
+  const list = rows.filter(r => r.date === key).sort((a, b) => a.time.localeCompare(b.time));
+  $("dayTitle").textContent = new Date(key + "T12:00:00Z").toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long" });
+  const out = list.filter(r => !r.income);
+  $("dayHint").textContent = `${out.length} payments · ${fmt(sum(out))}${shiftDates.has(key) ? " · shift day" : ""}${paydays.includes(key) ? " · payday 💷" : ""}`;
+  $("dayList").innerHTML = "<table>" + list.map(r => `<tr><td>${r.time}</td><td>${r.merchant}<br><span style="color:var(--muted);font-size:.78rem">${r.sub} · <span style="color:var(${TCOL[r.type] || "--ess"})">${r.income ? "Income" : r.type}</span></span></td><td>${r.income ? "+" + gbp(-r.amt) : fmt(r.amt)}</td></tr>`).join("") + "</table>";
+}
+
+// ---------- 24h clock ----------
+function clock(f) {
+  const host = $("clock"); const W = 320, c = W / 2, r0 = 46, rMax = 140; const s = svg(W, W, host);
+  const by = Array(24).fill(0); f.filter(r => (r.type === "Lifestyle" || r.type === "Leakage") && r.cat !== "Subscriptions" && !AUTO.has(r.pm)).forEach(r => by[r.hour] += r.amt);
+  const mx = Math.max(...by, 1); const leak = css("--leak"), accent = css("--accent"), line = css("--line");
+  [0.33, 0.66, 1].forEach(k => el("circle", { cx: c, cy: c, r: r0 + (rMax - r0) * k, fill: "none", stroke: line }, s));
+  by.forEach((v, h) => {
+    const a0 = (h / 24) * 2 * Math.PI - Math.PI / 2, a1 = ((h + 1) / 24) * 2 * Math.PI - Math.PI / 2 - 0.03;
+    const r1 = r0 + (rMax - r0) * Math.max(v, 0) / mx;
+    const p = (r, a) => `${c + r * Math.cos(a)},${c + r * Math.sin(a)}`;
+    const night = h >= 22 || h < 5;
+    const path = el("path", { d: `M${p(r0, a0)} L${p(r1, a0)} A${r1},${r1} 0 0 1 ${p(r1, a1)} L${p(r0, a1)} A${r0},${r0} 0 0 0 ${p(r0, a0)}Z`, fill: night ? leak : accent, "fill-opacity": .85 }, s);
+    hover(path, () => `<b>${String(h).padStart(2, "0")}:00–${String((h + 1) % 24).padStart(2, "0")}:00</b><br>${fmt(v)}${night ? " · late night" : ""}`);
+    if (h % 3 === 0) { const a = (h / 24) * 2 * Math.PI - Math.PI / 2; el("text", { x: c + (rMax + 14) * Math.cos(a), y: c + (rMax + 14) * Math.sin(a) + 4, "text-anchor": "middle" }, s).textContent = String(h).padStart(2, "0"); }
+  });
+  const peak = by.indexOf(mx);
+  el("text", { x: c, y: c - 4, "text-anchor": "middle", style: `font-size:12px` }, s).textContent = "peak";
+  const t = el("text", { x: c, y: c + 16, "text-anchor": "middle", style: `font-size:20px;font-weight:700;fill:${css("--ink")}` }, s); t.textContent = `${String(peak).padStart(2, "0")}:00`;
+}
+
+// ---------- categories ----------
+function cats(f) {
+  const host = $("cats"); const by = {}; f.forEach(r => by[r.cat] = (by[r.cat] || 0) + r.amt);
+  const list = Object.entries(by).filter(([, v]) => v > 0).sort((a, b) => b[1] - a[1]);
+  const rowH = 24, W = 640, lab = 130, valW = 92; const s = svg(W, Math.max(list.length, 1) * rowH, host);
+  const mx = Math.max(...list.map(x => x[1]), 1);
+  list.forEach(([k, v], i) => {
+    const y = i * rowH; const types = {}; f.filter(r => r.cat === k).forEach(r => types[r.type] = (types[r.type] || 0) + r.amt);
+    el("text", { x: 0, y: y + 15 }, s).textContent = k;
+    let x = lab; const total = (W - lab - valW) * v / mx;
+    TYPES.forEach(t => { if (!types[t] || types[t] <= 0) return; const w = total * types[t] / v; const b = el("rect", { x, y: y + 4, width: Math.max(w, 1), height: rowH - 9, rx: 3, fill: css(TCOL[t]), style: "cursor:pointer" }, s); hover(b, () => `<b>${k}</b> · ${t}<br>${fmt(types[t])}`); b.addEventListener("click", () => { S.cat = S.cat === k ? null : k; render(); }); x += w; });
+    el("text", { x: lab + total + 6, y: y + 15, style: `fill:${css("--ink")}` }, s).textContent = fmt(v);
+  });
+  if (!list.length) host.innerHTML = `<p class="hint">Nothing matches these filters.</p>`;
+}
+
+// ---------- payday curve ----------
+function paydayCurve(f) {
+  const disc = f.filter(r => (r.type === "Lifestyle" || r.type === "Leakage") && r.cat !== "Subscriptions" && !AUTO.has(r.pm));
+  const daily = {}; disc.forEach(r => daily[r.date] = (daily[r.date] || 0) + r.amt);
+  const buckets = Array.from({ length: 21 }, () => []);
+  for (let d = paydays[0]; d <= D.lastDate; d = addDays(d, 1)) {
+    if (S.period !== "all" && String(d > "2026-06-30" ? 1 : 0) !== S.period) continue;
+    if (S.shift !== "all" && String(shiftDates.has(d) ? 1 : 0) !== S.shift) continue;
+    const last = paydays.filter(p => p <= d).pop(); const n = Math.min(Math.round((new Date(d) - new Date(last)) / 864e5), 20);
+    buckets[n].push(daily[d] || 0);
+  }
+  const curve = buckets.map((b, i) => ({ n: i, v: avg(b) }));
+  curve.post = avg(buckets.slice(0, 4).flat()); curve.rest = avg(buckets.slice(4).flat());
+  return curve;
+}
+function payday(f) {
+  const host = $("payday"); const W = 520, H = 220, L = 46, B = 28; const s = svg(W, H, host);
+  const pc = paydayCurve(f); const mx = Math.max(...pc.map(p => p.v), 1);
+  const X = i => L + (W - L - 10) * i / 20, Y = v => H - B - (H - B - 10) * v / mx;
+  el("rect", { x: X(0) - 6, y: 6, width: X(3) - X(0) + 12, height: H - B - 6, fill: css("--pay"), "fill-opacity": .15 }, s);
+  el("text", { x: X(0), y: 18 }, s).textContent = "0–3 days after payday";
+  [0, .5, 1].forEach(k => { el("line", { x1: L, x2: W - 10, y1: Y(mx * k), y2: Y(mx * k), stroke: css("--line") }, s); el("text", { x: L - 6, y: Y(mx * k) + 4, "text-anchor": "end" }, s).textContent = fmt(mx * k, true); });
+  el("polyline", { points: pc.map(p => `${X(p.n)},${Y(p.v)}`).join(" "), fill: "none", stroke: css("--leak"), "stroke-width": 2.5 }, s);
+  pc.forEach(p => { const c = el("circle", { cx: X(p.n), cy: Y(p.v), r: 4, fill: css("--leak") }, s); hover(c, () => `<b>${p.n === 20 ? "20+" : p.n} days after payday</b><br>${fmt(p.v)} per day`); });
+  [0, 5, 10, 15, 20].forEach(i => el("text", { x: X(i), y: H - 8, "text-anchor": "middle" }, s).textContent = i === 20 ? "20+" : i);
+}
+
+// ---------- monthly ----------
+function monthly(f) {
+  const host = $("monthly"); const W = 520, H = 220, L = 46, B = 26, R = 46; const s = svg(W, H, host);
+  const months = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10"];
+  const inc = months.map(m => -sum(rows.filter(r => r.income && r.date.slice(5, 7) === m)));
+  const out = months.map(m => sum(f.filter(r => r.date.slice(5, 7) === m)));
+  const mx = Math.max(...inc, ...out, 1); const bw = (W - L - R) / months.length;
+  const Y = v => H - B - (H - B - 8) * v / mx;
+  months.forEach((m, i) => {
+    const x = L + i * bw;
+    const a = el("rect", { x: x + 4, y: Y(inc[i]), width: bw / 2 - 5, height: H - B - Y(inc[i]), rx: 2, fill: css("--ess") }, s);
+    const b = el("rect", { x: x + bw / 2, y: Y(Math.max(out[i], 0)), width: bw / 2 - 5, height: H - B - Y(Math.max(out[i], 0)), rx: 2, fill: css("--leak") }, s);
+    const lab = new Date(`2026-${m}-15`).toLocaleDateString("en-GB", { month: "short" });
+    hover(a, () => `<b>${lab}</b><br>Income ${fmt(inc[i])}`); hover(b, () => `<b>${lab}</b><br>Spending ${fmt(out[i])}${m === "10" ? " (1–25 Oct)" : ""}`);
+    el("text", { x: x + bw / 2, y: H - 8, "text-anchor": "middle" }, s).textContent = lab;
+  });
+  const xj = L + 6 * bw;
+  el("line", { x1: xj, x2: xj, y1: 6, y2: H - B, stroke: css("--muted"), "stroke-dasharray": "4 4" }, s);
+  el("text", { x: xj + 4, y: 14 }, s).textContent = "internship ends";
+  [0, mx / 2, mx].forEach(v => el("text", { x: L - 6, y: Y(v) + 4, "text-anchor": "end" }, s).textContent = fmt(v, true));
+}
+
+// ---------- what-if runway ----------
+function plan() {
+  const b = D.base, meal = $("wMeal").value / 100, cost = +$("wCost").value, top = $("wTop").value / 100, disc = $("wDisc").value / 100, onl = $("wOnline").value / 100;
+  $("wMealV").textContent = `${$("wMeal").value}%`; $("wCostV").textContent = `£${cost.toFixed(2)}`; $("wTopV").textContent = `${$("wTop").value}%`; $("wDiscV").textContent = `${$("wDisc").value}%`; $("wOnlineV").textContent = `${$("wOnline").value}%`;
+  const perDay = ($("wZombie").checked ? b.zombie_monthly * 12 / 365 : 0)
+    + meal * Math.max(b.late_take_spend - cost * b.late_take_orders, 0) / b.days_after
+    + top * b.topup_spend * disc / b.days_after
+    + ($("wBulk").checked ? b.tub_spend * (1 - b.bulk_ratio) / b.days_total : 0)
+    + onl * b.late_online / b.days_after;
+  return perDay;
+}
+function runway() {
+  const perDay = plan(); const host = $("runway"); const W = 640, H = 230, L = 50, B = 26; const s = svg(W, H, host);
+  const net = D.netPerDay, end = D.endBalance;
+  const zero = n => n < 0 ? addDays(D.lastDate, Math.round(end / -n)) : null;
+  const z0 = zero(net), z1 = zero(net + perDay);
+  const xEnd = "2027-09-30";
+  const X = d => L + (W - L - 10) * (new Date(d) - new Date("2026-01-01")) / (new Date(xEnd) - new Date("2026-01-01"));
+  const mx = Math.max(...D.balance.map(b => b[1])); const Y = v => H - B - (H - B - 10) * Math.max(v, 0) / mx;
+  [0, mx / 2, mx].forEach(v => { el("line", { x1: L, x2: W - 10, y1: Y(v), y2: Y(v), stroke: css("--line") }, s); el("text", { x: L - 6, y: Y(v) + 4, "text-anchor": "end" }, s).textContent = gbp(v); });
+  el("polyline", { points: D.balance.map(b => `${X(b[0])},${Y(b[1])}`).join(" "), fill: "none", stroke: css("--inv"), "stroke-width": 2 }, s);
+  const proj = (n, col, dash, label, z, dy) => {
+    const stop = z && z < xEnd ? z : xEnd; const days = (new Date(stop) - new Date(D.lastDate)) / 864e5;
+    el("line", { x1: X(D.lastDate), y1: Y(end), x2: X(stop), y2: Y(end + n * days), stroke: col, "stroke-width": 2.5, "stroke-dasharray": dash }, s);
+    if (z && z < xEnd) { el("circle", { cx: X(z), cy: Y(0), r: 5, fill: col }, s); el("text", { x: X(z), y: Y(0) + dy, "text-anchor": "middle", style: `fill:${col};font-weight:700` }, s).textContent = label; }
+  };
+  proj(net, css("--muted"), "5 5", "no change", z0, -12);
+  proj(net + perDay, css("--ess"), "", "with plan", z1, 18);
+  ["2026-01-01", "2026-07-01", "2027-01-01", "2027-07-01"].forEach(d => el("text", { x: X(d), y: H - 8, "text-anchor": "middle" }, s).textContent = new Date(d).toLocaleDateString("en-GB", { month: "short", year: "2-digit" }));
+  el("text", { x: X(D.lastDate) + 4, y: 14 }, s).textContent = "today";
+  el("line", { x1: X(D.lastDate), x2: X(D.lastDate), y1: 6, y2: H - B, stroke: css("--muted"), "stroke-dasharray": "2 4" }, s);
+  $("rDec").textContent = fmt(perDay * 67); $("rYear").textContent = fmt(perDay * 365);
+  $("rZero").textContent = z1 ? niceDate(z1) : "never 🎉";
+  $("rNote").textContent = z0 ? `Without the plan: ${niceDate(z0)}. The plan buys ${z1 ? Math.round((new Date(z1) - new Date(z0)) / 864e5) + " more days" : "all the time you need"} — but only new income stops the fall.` : "";
+}
+["wZombie", "wMeal", "wCost", "wTop", "wDisc", "wOnline", "wBulk"].forEach(id => $(id).addEventListener("input", runway));
+
+// ---------- leakage list & swap shop ----------
+function leakList(f) {
+  const l = f.filter(r => r.type === "Leakage").sort((a, b) => b.amt - a.amt);
+  $("leakList").innerHTML = l.length ? "<table>" + l.slice(0, 60).map(r => `<tr><td>${niceDate(r.date)}<br><span style="color:var(--muted);font-size:.78rem">${r.time}</span></td><td>${r.merchant}<br><span style="color:var(--muted);font-size:.78rem">${r.sub}</span></td><td>${gbp(r.amt)}<br><span style="color:var(--leak);font-size:.78rem">${(r.amt / S.wage).toFixed(1)} h of work</span></td></tr>`).join("") + "</table>" : `<p class="hint">No leakage with these filters.</p>`;
+}
+const POTS = {
+  late: { label: "Late shift takeaways", f: r => r.sub === "Takeaway delivery" && r.shift && (r.hour >= 21 || r.hour < 5) },
+  night: { label: "Late-night tax", f: r => (r.type === "Lifestyle" || r.type === "Leakage") && r.cat !== "Subscriptions" && !AUTO.has(r.pm) && (r.hour >= 22 || r.hour < 5) },
+  topup: { label: "Top-up shops", f: r => r.sub === "Top-up shop" },
+  leak: { label: "All leakage", f: r => r.type === "Leakage" },
+};
+Object.entries(POTS).forEach(([k, p]) => { const b = document.createElement("button"); b.className = "seg" + (k === S.swap ? " on" : ""); b.textContent = p.label; b.dataset.k = k; b.onclick = () => { S.swap = k; $("swapGroup").querySelectorAll("button").forEach(x => x.classList.toggle("on", x.dataset.k === k)); swap(); }; $("swapGroup").appendChild(b); });
+function swap() {
+  const v = sum(rows.filter(r => !r.income && POTS[S.swap].f(r)));
+  const items = [["⏱", (v / S.wage).toFixed(0), "hours of work"], ["🧑‍🍳", (v / S.wage / 7.5).toFixed(1), "full shifts"], ["🏋️", (v / 24.99).toFixed(1), "months of gym"], ["🎬", Math.floor(v / 12.5), "cinema tickets"], ["🥛", Math.floor(v / 42.5), "bulk protein orders"], ["🚆", Math.floor(v / 86.4), "trips to Edinburgh"]];
+  $("swapOut").innerHTML = `<div style="flex-basis:100%"><b>${gbp(v)}</b><span>${POTS[S.swap].label}, 1 Jan – 25 Oct</span></div>` + items.map(([e, n, l]) => `<div><b>${e} ${n}</b><span>${l}</span></div>`).join("");
+}
+
+// ---------- render ----------
+function render() { const f = filtered(); kpis(f); calendar(f); clock(f); cats(f); payday(f); monthly(f); runway(); leakList(f); swap(); }
+render();
+showDay(paydays.find(p => p >= "2026-08-01") || paydays[0]);
+addEventListener("resize", () => { clearTimeout(window._r); window._r = setTimeout(render, 150); });
+</script>
+</body>
+</html>

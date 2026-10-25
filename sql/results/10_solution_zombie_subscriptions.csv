@@ -1,0 +1,10 @@
+merchant,months_charged,monthly_price_gbp,paid_so_far_gbp,cost_per_year_gbp,action
+Disney+,10,5.99,59.9,71.88,CANCEL
+"Google One",10,1.99,19.9,23.88,CANCEL
+"LinkedIn Premium",4,29.99,119.96,359.88,"keep / review"
+"ChatGPT Plus",7,20.0,140.0,240.0,"keep / review"
+Spotify,10,12.99,129.9,155.88,"keep / review"
+"YouTube Premium",10,12.99,129.9,155.88,"keep / review"
+Netflix,10,10.99,109.9,131.88,"keep / review"
+"Amazon Prime",10,8.99,89.9,107.88,"keep / review"
+"Apple iCloud+",10,2.99,29.9,35.88,"keep / review"

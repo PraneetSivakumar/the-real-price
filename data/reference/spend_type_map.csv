@@ -1,0 +1,38 @@
+category,subcategory,merchant,spend_type,reason
+Housing & Bills,Rent,*,Essential,Needed to live
+Housing & Bills,Utilities,*,Essential,Needed to live
+Housing & Bills,Mobile,*,Essential,Needed to live and to job hunt
+Groceries,Weekly shop,*,Essential,Planned food shop
+Groceries,Top-up shop,*,Lifestyle,Convenience trips - premium prices (measured separately as the top-up premium)
+Transport,Train (commute),*,Essential,Required to attend the internship office
+Transport,Local & London travel,*,Lifestyle,Optional trips
+Personal Care,Body wash & toiletries,*,Essential,Basic hygiene
+Personal Care,Haircut,*,Lifestyle,Regular but optional frequency
+Personal Care,Men's skincare,*,Lifestyle,Optional and premium-able
+Learning & Career,Online course,*,Investment,Builds skills for the job search
+Learning & Career,Books,*,Investment,Builds skills
+Learning & Career,Certificate,*,Investment,Builds skills
+Shoes,Formal shoes (interviews),*,Investment,Bought for interviews
+Clothing,Interview outfit,*,Investment,Bought for interviews
+Subscriptions,Career,*,Investment,LinkedIn Premium for the job search
+Subscriptions,AI tools,*,Investment,Study and job-search tool
+Health & Fitness,Gym membership,*,Investment,Health
+Health & Fitness,Protein (bulk online),*,Lifestyle,Planned supplement buying at bulk prices
+Health & Fitness,"Protein (small tub, in-store)",*,Leakage,Same product bought at a much higher unit price than bulk
+Health & Fitness,Protein bars & shakes,*,Lifestyle,Convenience snacks
+Subscriptions,Streaming & storage,Disney+,Leakage,Assumed unused - zombie subscription
+Subscriptions,Streaming & storage,Google One,Leakage,Duplicates iCloud storage
+Subscriptions,Streaming & storage,*,Lifestyle,Entertainment and storage in use
+Eating Out,Takeaway delivery,*,Lifestyle,Overridden to Leakage by rule: delivered after 21:00 on a shift day
+Eating Out,Coffee,*,Lifestyle,Optional
+Eating Out,Lunch,*,Lifestyle,Optional (could bring lunch)
+Eating Out,Restaurants & fast food,*,Lifestyle,Optional
+Entertainment,*,*,Lifestyle,Optional
+Clothing,*,*,Lifestyle,Optional
+Shoes,*,*,Lifestyle,Optional
+Sport & Hobbies,*,*,Lifestyle,Cricket - social and health
+Travel,*,*,Lifestyle,Optional
+Gifts,*,*,Lifestyle,Social
+Shopping (misc),*,*,Lifestyle,Mixed household and gadgets
+Cash,*,*,Leakage,Untracked - you cannot see where it went
+Bank fees,*,*,Leakage,Avoidable charges

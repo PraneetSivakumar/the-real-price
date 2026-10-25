@@ -1,0 +1,708 @@
+transaction_id,date,time,bank_description,merchant,category,subcategory,amount_gbp,direction,payment_method,channel,location,balance_gbp
+T00001,2026-01-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,1025.00
+T00002,2026-01-01,07:21,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,993.80
+T00003,2026-01-01,08:56,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,990.35
+T00004,2026-01-01,19:07,STEAM GAMES,Steam,Entertainment,Games,15.04,Debit,Debit card,Online,Online,975.31
+T00005,2026-01-01,23:31,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,32.50,Debit,Debit card,Online,Online,942.81
+T00006,2026-01-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,64.00,Debit,Direct debit,Online,-,878.81
+T00007,2026-01-03,18:29,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,9.57,Debit,Apple Pay,In-store,Hatfield,869.24
+T00008,2026-01-03,23:25,NEXT RETAIL JANUARY SALE,Next,Clothing,January sales,67.34,Debit,Debit card,Online,Online,801.90
+T00009,2026-01-04,10:36,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,28.94,Debit,Debit card,In-store,Hatfield,772.96
+T00010,2026-01-04,21:33,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,15.14,Debit,Apple Pay,In-store,Hatfield,757.82
+T00011,2026-01-04,22:35,ASOS.COM,ASOS,Clothing,January sales,50.87,Debit,Debit card,Online,Online,706.95
+T00012,2026-01-04,23:09,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,22.45,Debit,Apple Pay,App,Hatfield,684.50
+T00013,2026-01-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,672.50
+T00014,2026-01-05,20:02,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),37.30,Debit,Debit card,Online,Online,635.20
+T00015,2026-01-06,07:18,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,604.00
+T00016,2026-01-06,08:53,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,600.35
+T00017,2026-01-06,12:28,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,7.57,Debit,Apple Pay,In-store,Milton Keynes,592.78
+T00018,2026-01-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,567.79
+T00019,2026-01-07,16:00,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,9.91,Debit,Apple Pay,In-store,Hatfield,557.88
+T00020,2026-01-07,20:37,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,40.00,Debit,Cash,In-store,Hatfield,517.88
+T00021,2026-01-08,07:20,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,486.68
+T00022,2026-01-08,08:34,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,483.23
+T00023,2026-01-08,12:38,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,6.57,Debit,Apple Pay,In-store,Milton Keynes,476.66
+T00024,2026-01-08,17:50,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,13.89,Debit,Apple Pay,In-store,Hatfield,462.77
+T00025,2026-01-09,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,406.73,Credit,Bank transfer,Online,-,869.50
+T00026,2026-01-09,21:19,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,21.93,Debit,Apple Pay,App,Hatfield,847.57
+T00027,2026-01-09,21:29,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,13.60,Debit,Apple Pay,In-store,Hatfield,833.97
+T00028,2026-01-09,23:58,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,12.76,Debit,Debit card,Online,Online,821.21
+T00029,2026-01-10,00:12,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,22.48,Debit,Apple Pay,App,Hatfield,798.73
+T00030,2026-01-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,787.74
+T00031,2026-01-10,14:50,HOLLAND & BARRETT HATFIELD,Holland & Barrett,Health & Fitness,"Protein (small tub, in-store)",24.99,Debit,Apple Pay,In-store,Hatfield,762.75
+T00032,2026-01-11,10:16,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,34.21,Debit,Debit card,In-store,Hatfield,728.54
+T00033,2026-01-11,11:56,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,30.00,Debit,Cash,In-store,Hatfield,698.54
+T00034,2026-01-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,685.55
+T00035,2026-01-12,23:17,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,27.68,Debit,Debit card,Online,Online,657.87
+T00036,2026-01-13,07:14,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,626.67
+T00037,2026-01-13,08:42,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,622.72
+T00038,2026-01-13,13:06,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,5.00,Debit,Apple Pay,In-store,Milton Keynes,617.72
+T00039,2026-01-14,11:15,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,3.39,Debit,Apple Pay,In-store,Hatfield,614.33
+T00040,2026-01-14,16:22,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,599.33
+T00041,2026-01-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,590.34
+T00042,2026-01-15,07:24,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,562.94
+T00043,2026-01-15,08:27,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,558.99
+T00044,2026-01-15,19:21,UBER *TRIP,Uber,Transport,Local & London travel,14.77,Debit,Apple Pay,App,London,544.22
+T00045,2026-01-16,16:38,BOOTS.COM,Boots,Personal Care,Men's skincare,31.36,Debit,Apple Pay,Online,Hatfield,512.86
+T00046,2026-01-16,19:08,TESCO STORES HATFIELD,Tesco,Personal Care,Body wash & toiletries,5.70,Debit,Apple Pay,In-store,Hatfield,507.16
+T00047,2026-01-16,19:35,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,15.43,Debit,Apple Pay,App,Hatfield,491.73
+T00048,2026-01-16,21:59,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,40.00,Debit,Cash,In-store,Hatfield,451.73
+T00049,2026-01-17,14:34,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,3.88,Debit,Apple Pay,In-store,Hatfield,447.85
+T00050,2026-01-17,22:52,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,16.34,Debit,Debit card,Online,Online,431.51
+T00051,2026-01-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,428.52
+T00052,2026-01-18,11:03,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,38.47,Debit,Debit card,In-store,Hatfield,390.05
+T00053,2026-01-18,19:03,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,16.14,Debit,Apple Pay,In-store,Hatfield,373.91
+T00054,2026-01-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,360.92
+T00055,2026-01-20,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,329.72
+T00056,2026-01-20,08:05,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,326.07
+T00057,2026-01-20,13:08,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,7.68,Debit,Apple Pay,In-store,Milton Keynes,318.39
+T00058,2026-01-20,18:24,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,23.36,Debit,Apple Pay,In-store,Hatfield,295.03
+T00059,2026-01-20,21:37,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,19.56,Debit,Apple Pay,App,Hatfield,275.47
+T00060,2026-01-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,269.48
+T00061,2026-01-22,07:22,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,242.08
+T00062,2026-01-22,08:11,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,238.43
+T00063,2026-01-22,12:01,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.62,Debit,Apple Pay,In-store,Milton Keynes,231.81
+T00064,2026-01-22,17:04,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,11.10,Debit,Apple Pay,In-store,Hatfield,220.71
+T00065,2026-01-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,218.72
+T00066,2026-01-24,22:20,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,21.64,Debit,Apple Pay,App,Hatfield,197.08
+T00067,2026-01-25,11:26,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,42.30,Debit,Debit card,In-store,Hatfield,154.78
+T00068,2026-01-25,23:42,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,26.65,Debit,Apple Pay,App,Hatfield,128.13
+T00069,2026-01-27,07:22,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,96.93
+T00070,2026-01-27,08:27,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,93.28
+T00071,2026-01-27,12:59,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,7.60,Debit,Apple Pay,In-store,Milton Keynes,85.68
+T00072,2026-01-27,13:40,SUPERDRUG HATFIELD,Superdrug,Personal Care,Body wash & toiletries,7.29,Debit,Apple Pay,In-store,Hatfield,78.39
+T00073,2026-01-27,17:21,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,11.45,Debit,Apple Pay,In-store,Hatfield,66.94
+T00074,2026-01-28,06:05,FASTER PAYMENT RECEIVED PAYROLL - INTERNSHIP,Internship payroll,Income,Salary,1840.00,Credit,Bank transfer,Online,-,1906.94
+T00075,2026-01-29,07:18,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,1875.74
+T00076,2026-01-29,08:06,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1872.29
+T00077,2026-01-29,13:02,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.79,Debit,Apple Pay,In-store,Milton Keynes,1865.50
+T00078,2026-01-30,18:16,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,14.54,Debit,Apple Pay,In-store,Hatfield,1850.96
+T00079,2026-02-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,1275.96
+T00080,2026-02-01,12:33,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,43.10,Debit,Debit card,In-store,Hatfield,1232.86
+T00081,2026-02-01,14:13,HOLLAND & BARRETT HATFIELD,Holland & Barrett,Health & Fitness,"Protein (small tub, in-store)",21.99,Debit,Apple Pay,In-store,Hatfield,1210.87
+T00082,2026-02-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,64.00,Debit,Direct debit,Online,-,1146.87
+T00083,2026-02-03,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1117.97
+T00084,2026-02-03,08:52,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1114.52
+T00085,2026-02-03,13:08,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,4.99,Debit,Apple Pay,In-store,Milton Keynes,1109.53
+T00086,2026-02-04,18:12,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,20.00,Debit,Cash,In-store,Hatfield,1089.53
+T00087,2026-02-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,1077.53
+T00088,2026-02-05,07:18,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1050.13
+T00089,2026-02-05,08:15,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1046.68
+T00090,2026-02-05,13:13,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,4.95,Debit,Apple Pay,In-store,Milton Keynes,1041.73
+T00091,2026-02-06,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,396.95,Credit,Bank transfer,Online,-,1438.68
+T00092,2026-02-06,18:45,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,12.65,Debit,Apple Pay,In-store,Hatfield,1426.03
+T00093,2026-02-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,1401.04
+T00094,2026-02-07,23:42,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,27.85,Debit,Debit card,Online,Online,1373.19
+T00095,2026-02-07,23:56,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,19.01,Debit,Apple Pay,App,Hatfield,1354.18
+T00096,2026-02-08,00:41,H&M ONLINE,H&M,Clothing,Clothing,37.56,Debit,Debit card,Online,Online,1316.62
+T00097,2026-02-08,10:29,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,34.31,Debit,Debit card,In-store,Hatfield,1282.31
+T00098,2026-02-09,12:47,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,19.42,Debit,Apple Pay,In-store,Hatfield,1262.89
+T00099,2026-02-09,19:34,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,28.70,Debit,Apple Pay,App,Hatfield,1234.19
+T00100,2026-02-09,22:07,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),50.11,Debit,Debit card,Online,Online,1184.08
+T00101,2026-02-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,1173.09
+T00102,2026-02-10,07:15,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1144.19
+T00103,2026-02-10,08:31,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1140.74
+T00104,2026-02-10,13:12,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.97,Debit,Apple Pay,In-store,Milton Keynes,1133.77
+T00105,2026-02-10,15:24,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,15.30,Debit,Apple Pay,In-store,Hatfield,1118.47
+T00106,2026-02-11,19:33,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,16.39,Debit,Debit card,Online,Online,1102.08
+T00107,2026-02-11,20:23,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,14.17,Debit,Apple Pay,In-store,Hatfield,1087.91
+T00108,2026-02-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1074.92
+T00109,2026-02-12,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1047.52
+T00110,2026-02-12,08:57,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,1043.87
+T00111,2026-02-12,12:22,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,6.39,Debit,Apple Pay,In-store,Milton Keynes,1037.48
+T00112,2026-02-12,15:41,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,6.37,Debit,Apple Pay,In-store,Hatfield,1031.11
+T00113,2026-02-12,19:41,SUPERDRUG HATFIELD,Superdrug,Personal Care,Body wash & toiletries,6.06,Debit,Apple Pay,In-store,Hatfield,1025.05
+T00114,2026-02-13,01:11,ASOS.COM,ASOS,Clothing,Clothing,55.17,Debit,Debit card,Online,Online,969.88
+T00115,2026-02-14,11:43,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,954.88
+T00116,2026-02-14,16:47,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,13.53,Debit,Apple Pay,In-store,Hatfield,941.35
+T00117,2026-02-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,932.36
+T00118,2026-02-15,12:31,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,37.84,Debit,Debit card,In-store,Hatfield,894.52
+T00119,2026-02-15,15:15,BOOTS HATFIELD,Boots,Personal Care,Men's skincare,17.05,Debit,Apple Pay,In-store,Hatfield,877.47
+T00120,2026-02-16,12:11,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,39.72,Debit,Debit card,In-store,Hatfield,837.75
+T00121,2026-02-17,07:19,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,806.55
+T00122,2026-02-17,08:09,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,802.90
+T00123,2026-02-17,12:28,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,4.77,Debit,Apple Pay,In-store,Milton Keynes,798.13
+T00124,2026-02-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,795.14
+T00125,2026-02-19,07:12,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,766.24
+T00126,2026-02-19,08:38,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,762.59
+T00127,2026-02-19,13:13,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,6.78,Debit,Apple Pay,In-store,Milton Keynes,755.81
+T00128,2026-02-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,742.82
+T00129,2026-02-21,18:27,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,30.00,Debit,Cash,In-store,Hatfield,712.82
+T00130,2026-02-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,706.83
+T00131,2026-02-22,11:54,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,44.79,Debit,Debit card,In-store,Hatfield,662.04
+T00132,2026-02-22,18:55,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,13.42,Debit,Apple Pay,In-store,Hatfield,648.62
+T00133,2026-02-23,09:35,ASOS.COM REFUND,ASOS,Clothing,Refund,55.17,Credit,Debit card,Online,Online,703.79
+T00134,2026-02-23,11:38,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,31.63,Debit,Debit card,In-store,Hatfield,672.16
+T00135,2026-02-23,15:20,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,22.10,Debit,Apple Pay,In-store,Hatfield,650.06
+T00136,2026-02-23,15:42,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,4.07,Debit,Apple Pay,In-store,Hatfield,645.99
+T00137,2026-02-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,644.00
+T00138,2026-02-24,07:07,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,615.10
+T00139,2026-02-24,08:09,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,611.45
+T00140,2026-02-24,12:58,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,7.94,Debit,Apple Pay,In-store,Milton Keynes,603.51
+T00141,2026-02-24,19:27,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,13.67,Debit,Apple Pay,In-store,Hatfield,589.84
+T00142,2026-02-26,07:25,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,562.44
+T00143,2026-02-26,08:20,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,558.79
+T00144,2026-02-26,19:16,BOOTS HATFIELD,Boots,Personal Care,Body wash & toiletries,5.99,Debit,Apple Pay,In-store,Hatfield,552.80
+T00145,2026-02-27,14:40,PRIMARK HATFIELD,Primark,Clothing,Clothing,58.41,Debit,Apple Pay,In-store,Hatfield,494.39
+T00146,2026-02-27,21:25,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,18.18,Debit,Apple Pay,In-store,Hatfield,476.21
+T00147,2026-02-28,06:05,FASTER PAYMENT RECEIVED PAYROLL - INTERNSHIP,Internship payroll,Income,Salary,1840.00,Credit,Bank transfer,Online,-,2316.21
+T00148,2026-02-28,17:26,NIKE.COM UK,Nike,Shoes,Trainers,94.99,Debit,Debit card,Online,Online,2221.22
+T00149,2026-02-28,23:20,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,23.90,Debit,Apple Pay,App,Hatfield,2197.32
+T00150,2026-03-01,00:16,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,14.54,Debit,Apple Pay,App,Hatfield,2182.78
+T00151,2026-03-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,1607.78
+T00152,2026-03-01,10:07,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,40.93,Debit,Debit card,In-store,Hatfield,1566.85
+T00153,2026-03-02,16:02,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,3.98,Debit,Apple Pay,In-store,Hatfield,1562.87
+T00154,2026-03-02,19:44,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,30.97,Debit,Apple Pay,App,Hatfield,1531.90
+T00155,2026-03-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,58.00,Debit,Direct debit,Online,-,1473.90
+T00156,2026-03-03,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1445.00
+T00157,2026-03-03,08:09,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,1441.35
+T00158,2026-03-03,12:38,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,7.56,Debit,Apple Pay,In-store,Milton Keynes,1433.79
+T00159,2026-03-03,19:28,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,12.13,Debit,Apple Pay,In-store,Hatfield,1421.66
+T00160,2026-03-03,19:50,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,16.62,Debit,Apple Pay,App,Hatfield,1405.04
+T00161,2026-03-04,11:17,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,2.87,Debit,Apple Pay,In-store,Hatfield,1402.17
+T00162,2026-03-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,1390.17
+T00163,2026-03-05,07:09,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1362.77
+T00164,2026-03-05,08:12,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,1358.82
+T00165,2026-03-05,12:24,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,6.96,Debit,Apple Pay,In-store,Milton Keynes,1351.86
+T00166,2026-03-06,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,377.26,Credit,Bank transfer,Online,-,1729.12
+T00167,2026-03-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,1704.13
+T00168,2026-03-07,20:12,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,7.08,Debit,Debit card,Online,Online,1697.05
+T00169,2026-03-07,22:08,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,30.53,Debit,Apple Pay,App,Hatfield,1666.52
+T00170,2026-03-08,11:33,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,42.44,Debit,Debit card,In-store,Hatfield,1624.08
+T00171,2026-03-08,20:55,UDEMY ONLINE COURSES,Udemy,Learning & Career,Online course,14.99,Debit,Debit card,Online,Online,1609.09
+T00172,2026-03-09,01:30,ASOS.COM,ASOS,Clothing,Clothing,50.50,Debit,Debit card,Online,Online,1558.59
+T00173,2026-03-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,1547.60
+T00174,2026-03-10,07:18,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1520.20
+T00175,2026-03-10,08:17,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1516.75
+T00176,2026-03-10,12:07,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,7.68,Debit,Apple Pay,In-store,Milton Keynes,1509.07
+T00177,2026-03-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1496.08
+T00178,2026-03-12,07:15,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,1464.88
+T00179,2026-03-12,08:54,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1461.43
+T00180,2026-03-12,12:05,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,5.03,Debit,Apple Pay,In-store,Milton Keynes,1456.40
+T00181,2026-03-12,15:54,BOOTS.COM,Boots,Personal Care,Men's skincare,29.25,Debit,Apple Pay,Online,Hatfield,1427.15
+T00182,2026-03-13,16:07,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,15.15,Debit,Apple Pay,In-store,Hatfield,1412.00
+T00183,2026-03-13,20:32,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,9.68,Debit,Apple Pay,In-store,Hatfield,1402.32
+T00184,2026-03-13,21:00,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,14.80,Debit,Apple Pay,In-store,Hatfield,1387.52
+T00185,2026-03-14,10:11,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,1372.52
+T00186,2026-03-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,1363.53
+T00187,2026-03-15,10:04,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,25.20,Debit,Debit card,In-store,Hatfield,1338.33
+T00188,2026-03-15,21:20,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,12.12,Debit,Apple Pay,In-store,Hatfield,1326.21
+T00189,2026-03-15,21:37,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,30.07,Debit,Apple Pay,App,Hatfield,1296.14
+T00190,2026-03-16,10:15,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,40.00,Debit,Cash,In-store,Hatfield,1256.14
+T00191,2026-03-17,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1228.74
+T00192,2026-03-17,08:00,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,1224.79
+T00193,2026-03-17,12:19,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.03,Debit,Apple Pay,In-store,Milton Keynes,1218.76
+T00194,2026-03-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,1215.77
+T00195,2026-03-18,22:55,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),51.87,Debit,Debit card,Online,Online,1163.90
+T00196,2026-03-19,07:11,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1136.50
+T00197,2026-03-19,08:03,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1133.05
+T00198,2026-03-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1120.06
+T00199,2026-03-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,1114.07
+T00200,2026-03-22,12:26,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,32.70,Debit,Debit card,In-store,Hatfield,1081.37
+T00201,2026-03-22,16:14,CARD FACTORY / GIFT,Gifts,Gifts,Birthday gifts,43.51,Debit,Debit card,In-store,Hatfield,1037.86
+T00202,2026-03-22,20:01,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,16.42,Debit,Apple Pay,In-store,Hatfield,1021.44
+T00203,2026-03-22,20:08,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,21.74,Debit,Debit card,Online,Online,999.70
+T00204,2026-03-23,12:40,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,39.38,Debit,Debit card,In-store,Hatfield,960.32
+T00205,2026-03-23,21:07,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,11.01,Debit,Apple Pay,In-store,Hatfield,949.31
+T00206,2026-03-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,947.32
+T00207,2026-03-24,07:17,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,916.12
+T00208,2026-03-24,08:56,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,912.17
+T00209,2026-03-24,09:25,ASOS.COM REFUND,ASOS,Clothing,Refund,50.50,Credit,Debit card,Online,Online,962.67
+T00210,2026-03-24,12:41,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,6.67,Debit,Apple Pay,In-store,Milton Keynes,956.00
+T00211,2026-03-25,14:13,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,23.92,Debit,Apple Pay,In-store,Hatfield,932.08
+T00212,2026-03-26,07:11,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,900.88
+T00213,2026-03-26,08:07,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,897.43
+T00214,2026-03-26,12:27,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,8.33,Debit,Apple Pay,In-store,Milton Keynes,889.10
+T00215,2026-03-27,18:34,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,19.79,Debit,Apple Pay,In-store,Hatfield,869.31
+T00216,2026-03-28,06:05,FASTER PAYMENT RECEIVED PAYROLL - INTERNSHIP,Internship payroll,Income,Salary,1840.00,Credit,Bank transfer,Online,-,2709.31
+T00217,2026-03-28,21:07,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,5.51,Debit,Apple Pay,In-store,Hatfield,2703.80
+T00218,2026-03-29,12:40,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,25.45,Debit,Debit card,In-store,Hatfield,2678.35
+T00219,2026-03-29,14:58,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,20.00,Debit,Cash,In-store,Hatfield,2658.35
+T00220,2026-03-29,21:07,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,15.35,Debit,Apple Pay,In-store,Hatfield,2643.00
+T00221,2026-03-29,22:44,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,27.86,Debit,Apple Pay,App,Hatfield,2615.14
+T00222,2026-03-31,07:14,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,2586.24
+T00223,2026-03-31,08:25,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,2582.59
+T00224,2026-03-31,13:05,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,7.08,Debit,Apple Pay,In-store,Milton Keynes,2575.51
+T00225,2026-03-31,19:18,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,23.98,Debit,Apple Pay,App,Hatfield,2551.53
+T00226,2026-04-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,1976.53
+T00227,2026-04-01,16:18,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,3.29,Debit,Apple Pay,In-store,Hatfield,1973.24
+T00228,2026-04-01,21:34,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,15.52,Debit,Debit card,Online,Online,1957.72
+T00229,2026-04-02,07:18,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1928.82
+T00230,2026-04-02,08:30,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,1925.17
+T00231,2026-04-02,13:22,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.12,Debit,Apple Pay,In-store,Milton Keynes,1919.05
+T00232,2026-04-02,19:02,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,25.41,Debit,Apple Pay,App,Hatfield,1893.64
+T00233,2026-04-03,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,395.90,Credit,Bank transfer,Online,-,2289.54
+T00234,2026-04-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,61.50,Debit,Direct debit,Online,-,2228.04
+T00235,2026-04-03,12:10,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,5.84,Debit,Apple Pay,In-store,Hatfield,2222.20
+T00236,2026-04-03,12:40,SUPERDRUG HATFIELD,Superdrug,Personal Care,Men's skincare,31.02,Debit,Apple Pay,In-store,Hatfield,2191.18
+T00237,2026-04-03,16:49,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,11.32,Debit,Apple Pay,In-store,Hatfield,2179.86
+T00238,2026-04-03,22:33,THE RED LION HATFIELD,The Red Lion (pub),Entertainment,Social & cinema,9.23,Debit,Apple Pay,In-store,Hatfield,2170.63
+T00239,2026-04-04,10:30,HATFIELD CRICKET CLUB SUBS,Cricket club,Sport & Hobbies,Club membership,120.00,Debit,Bank transfer,Online,Hatfield,2050.63
+T00240,2026-04-04,19:17,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,9.60,Debit,Apple Pay,In-store,Hatfield,2041.03
+T00241,2026-04-04,20:53,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,43.23,Debit,Debit card,Online,Online,1997.80
+T00242,2026-04-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,1985.80
+T00243,2026-04-05,11:19,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,33.73,Debit,Debit card,In-store,Hatfield,1952.07
+T00244,2026-04-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,1927.08
+T00245,2026-04-07,07:16,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,1895.88
+T00246,2026-04-07,08:57,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,1891.93
+T00247,2026-04-07,13:09,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,5.05,Debit,Apple Pay,In-store,Milton Keynes,1886.88
+T00248,2026-04-08,12:04,HOLLAND & BARRETT HATFIELD,Holland & Barrett,Health & Fitness,"Protein (small tub, in-store)",21.99,Debit,Apple Pay,In-store,Hatfield,1864.89
+T00249,2026-04-08,18:34,NEXT RETAIL,Next,Clothing,Clothing,65.17,Debit,Debit card,Online,Online,1799.72
+T00250,2026-04-08,20:17,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,40.00,Debit,Cash,In-store,Hatfield,1759.72
+T00251,2026-04-09,04:31,OPENAI *CHATGPT SUBSCR,ChatGPT Plus,Subscriptions,AI tools,20.00,Debit,Debit card,Online,-,1739.72
+T00252,2026-04-09,07:08,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1710.82
+T00253,2026-04-09,08:00,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1707.37
+T00254,2026-04-09,12:04,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,6.21,Debit,Apple Pay,In-store,Milton Keynes,1701.16
+T00255,2026-04-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,1690.17
+T00256,2026-04-10,21:45,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,30.33,Debit,Apple Pay,App,Hatfield,1659.84
+T00257,2026-04-10,21:59,WETHERSPOON ST ALBANS,Wetherspoon,Entertainment,Social & cinema,16.36,Debit,Apple Pay,In-store,Hatfield,1643.48
+T00258,2026-04-11,18:18,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,11.36,Debit,Apple Pay,In-store,Hatfield,1632.12
+T00259,2026-04-11,20:39,SPORTS DIRECT HATFIELD,Sports Direct,Shoes,Cricket shoes,54.99,Debit,Debit card,In-store,Hatfield,1577.13
+T00260,2026-04-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1564.14
+T00261,2026-04-12,10:50,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,30.57,Debit,Debit card,In-store,Hatfield,1533.57
+T00262,2026-04-12,17:41,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,9.09,Debit,Apple Pay,In-store,Hatfield,1524.48
+T00263,2026-04-13,12:32,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,24.99,Debit,Debit card,In-store,Hatfield,1499.49
+T00264,2026-04-14,07:18,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,1468.29
+T00265,2026-04-14,08:16,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1464.84
+T00266,2026-04-14,11:04,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,1449.84
+T00267,2026-04-14,13:05,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,5.94,Debit,Apple Pay,In-store,Milton Keynes,1443.90
+T00268,2026-04-14,20:10,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,21.34,Debit,Apple Pay,App,Hatfield,1422.56
+T00269,2026-04-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,1413.57
+T00270,2026-04-15,19:50,GREAT NORTHERN,Great Northern,Transport,Local & London travel,7.71,Debit,Apple Pay,App,Hatfield,1405.86
+T00271,2026-04-16,07:25,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1376.96
+T00272,2026-04-16,08:58,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,1373.31
+T00273,2026-04-16,13:27,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,4.69,Debit,Apple Pay,In-store,Milton Keynes,1368.62
+T00274,2026-04-17,16:53,UBER *TRIP,Uber,Transport,Local & London travel,11.99,Debit,Apple Pay,App,London,1356.63
+T00275,2026-04-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,1353.64
+T00276,2026-04-18,13:05,DECATHLON UK,Decathlon,Sport & Hobbies,Cricket kit,72.50,Debit,Debit card,In-store,St Albans,1281.14
+T00277,2026-04-19,12:25,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,41.01,Debit,Debit card,In-store,Hatfield,1240.13
+T00278,2026-04-19,15:23,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,4.89,Debit,Apple Pay,In-store,Hatfield,1235.24
+T00279,2026-04-19,20:55,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,15.32,Debit,Apple Pay,In-store,Hatfield,1219.92
+T00280,2026-04-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1206.93
+T00281,2026-04-21,07:25,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1178.03
+T00282,2026-04-21,08:52,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1174.58
+T00283,2026-04-21,12:36,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.28,Debit,Apple Pay,In-store,Milton Keynes,1168.30
+T00284,2026-04-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,1162.31
+T00285,2026-04-22,18:37,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,22.51,Debit,Apple Pay,In-store,Hatfield,1139.80
+T00286,2026-04-23,07:11,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1110.90
+T00287,2026-04-23,08:07,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,1107.25
+T00288,2026-04-23,13:40,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,6.33,Debit,Apple Pay,In-store,Milton Keynes,1100.92
+T00289,2026-04-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,1098.93
+T00290,2026-04-24,19:18,THE RED LION HATFIELD,The Red Lion (pub),Entertainment,Social & cinema,27.78,Debit,Apple Pay,In-store,Hatfield,1071.15
+T00291,2026-04-26,12:39,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,45.23,Debit,Debit card,In-store,Hatfield,1025.92
+T00292,2026-04-27,18:11,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,22.24,Debit,Apple Pay,In-store,Hatfield,1003.68
+T00293,2026-04-27,21:09,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,9.25,Debit,Apple Pay,In-store,Hatfield,994.43
+T00294,2026-04-27,22:21,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),45.91,Debit,Debit card,Online,Online,948.52
+T00295,2026-04-28,06:05,FASTER PAYMENT RECEIVED PAYROLL - INTERNSHIP,Internship payroll,Income,Salary,1840.00,Credit,Bank transfer,Online,-,2788.52
+T00296,2026-04-28,07:16,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,2757.32
+T00297,2026-04-28,08:27,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,2753.87
+T00298,2026-04-28,12:52,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,6.60,Debit,Apple Pay,In-store,Milton Keynes,2747.27
+T00299,2026-04-28,19:04,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,8.25,Debit,Apple Pay,In-store,Hatfield,2739.02
+T00300,2026-04-29,12:39,UNIQLO LONDON,Uniqlo,Clothing,Clothing,20.98,Debit,Apple Pay,In-store,London,2718.04
+T00301,2026-04-29,21:21,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,7.57,Debit,Apple Pay,In-store,Hatfield,2710.47
+T00302,2026-04-30,07:22,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,2683.07
+T00303,2026-04-30,08:18,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,2679.42
+T00304,2026-04-30,13:05,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,8.71,Debit,Apple Pay,In-store,Milton Keynes,2670.71
+T00305,2026-04-30,18:48,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,34.91,Debit,Debit card,Online,Online,2635.80
+T00306,2026-05-01,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,364.56,Credit,Bank transfer,Online,-,3000.36
+T00307,2026-05-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,2425.36
+T00308,2026-05-01,17:00,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,12.36,Debit,Apple Pay,In-store,Hatfield,2413.00
+T00309,2026-05-01,19:43,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,21.31,Debit,Apple Pay,In-store,Hatfield,2391.69
+T00310,2026-05-02,00:30,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,17.67,Debit,Apple Pay,App,Hatfield,2374.02
+T00311,2026-05-02,18:30,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,8.41,Debit,Apple Pay,In-store,Hatfield,2365.61
+T00312,2026-05-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,44.00,Debit,Direct debit,Online,-,2321.61
+T00313,2026-05-03,12:49,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,24.25,Debit,Debit card,In-store,Hatfield,2297.36
+T00314,2026-05-03,17:25,PRIMARK HATFIELD,Primark,Clothing,Clothing,34.65,Debit,Apple Pay,In-store,Hatfield,2262.71
+T00315,2026-05-03,17:50,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2256.71
+T00316,2026-05-03,18:44,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,12.81,Debit,Apple Pay,In-store,Hatfield,2243.90
+T00317,2026-05-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,2231.90
+T00318,2026-05-05,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,2200.70
+T00319,2026-05-05,08:14,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,2197.25
+T00320,2026-05-05,13:01,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,4.42,Debit,Apple Pay,In-store,Milton Keynes,2192.83
+T00321,2026-05-06,21:27,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,12.94,Debit,Apple Pay,In-store,Hatfield,2179.89
+T00322,2026-05-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,2154.90
+T00323,2026-05-07,07:13,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,2123.70
+T00324,2026-05-07,08:17,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,2120.25
+T00325,2026-05-07,13:31,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,7.33,Debit,Apple Pay,In-store,Milton Keynes,2112.92
+T00326,2026-05-07,21:16,STEAM GAMES,Steam,Entertainment,Games,18.80,Debit,Debit card,Online,Online,2094.12
+T00327,2026-05-08,14:57,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,11.40,Debit,Apple Pay,In-store,Hatfield,2082.72
+T00328,2026-05-08,15:36,HOLLAND & BARRETT HATFIELD,Holland & Barrett,Health & Fitness,"Protein (small tub, in-store)",18.99,Debit,Apple Pay,In-store,Hatfield,2063.73
+T00329,2026-05-08,21:16,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,30.82,Debit,Apple Pay,In-store,Hatfield,2032.91
+T00330,2026-05-09,04:31,OPENAI *CHATGPT SUBSCR,ChatGPT Plus,Subscriptions,AI tools,20.00,Debit,Debit card,Online,-,2012.91
+T00331,2026-05-09,14:56,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,18.18,Debit,Apple Pay,In-store,Hatfield,1994.73
+T00332,2026-05-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,1983.74
+T00333,2026-05-10,10:08,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,25.30,Debit,Debit card,In-store,Hatfield,1958.44
+T00334,2026-05-10,17:30,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,1952.44
+T00335,2026-05-11,12:50,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,26.19,Debit,Debit card,In-store,Hatfield,1926.25
+T00336,2026-05-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1913.26
+T00337,2026-05-12,07:09,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1884.36
+T00338,2026-05-12,08:47,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,1880.41
+T00339,2026-05-12,12:16,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,4.74,Debit,Apple Pay,In-store,Milton Keynes,1875.67
+T00340,2026-05-12,12:26,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,6.24,Debit,Apple Pay,In-store,Hatfield,1869.43
+T00341,2026-05-13,18:02,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,13.57,Debit,Apple Pay,In-store,Hatfield,1855.86
+T00342,2026-05-13,21:26,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,38.06,Debit,Debit card,Online,Online,1817.80
+T00343,2026-05-14,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1788.90
+T00344,2026-05-14,08:44,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,1784.95
+T00345,2026-05-14,12:42,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,8.73,Debit,Apple Pay,In-store,Milton Keynes,1776.22
+T00346,2026-05-14,15:40,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,1761.22
+T00347,2026-05-14,18:19,SUPERDRUG HATFIELD,Superdrug,Personal Care,Men's skincare,25.78,Debit,Apple Pay,In-store,Hatfield,1735.44
+T00348,2026-05-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,1726.45
+T00349,2026-05-15,16:14,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,7.06,Debit,Apple Pay,In-store,Hatfield,1719.39
+T00350,2026-05-16,13:03,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,22.44,Debit,Apple Pay,In-store,Hatfield,1696.95
+T00351,2026-05-16,19:32,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,15.64,Debit,Apple Pay,In-store,Hatfield,1681.31
+T00352,2026-05-16,23:11,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,15.78,Debit,Apple Pay,App,Hatfield,1665.53
+T00353,2026-05-17,11:00,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,2.20,Debit,Apple Pay,In-store,Hatfield,1663.33
+T00354,2026-05-17,12:29,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,44.27,Debit,Debit card,In-store,Hatfield,1619.06
+T00355,2026-05-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,1616.07
+T00356,2026-05-18,20:22,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,39.40,Debit,Debit card,Online,Online,1576.67
+T00357,2026-05-19,11:57,SUPERDRUG HATFIELD,Superdrug,Personal Care,Body wash & toiletries,3.54,Debit,Apple Pay,In-store,Hatfield,1573.13
+T00358,2026-05-19,20:35,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,5.65,Debit,Apple Pay,In-store,Hatfield,1567.48
+T00359,2026-05-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1554.49
+T00360,2026-05-21,07:13,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,1525.59
+T00361,2026-05-21,08:28,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,1521.94
+T00362,2026-05-21,10:50,UBER *TRIP,Uber,Transport,Local & London travel,15.40,Debit,Apple Pay,App,London,1506.54
+T00363,2026-05-21,13:22,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,4.83,Debit,Apple Pay,In-store,Milton Keynes,1501.71
+T00364,2026-05-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,1495.72
+T00365,2026-05-22,21:47,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,12.45,Debit,Apple Pay,In-store,Hatfield,1483.27
+T00366,2026-05-23,18:30,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,13.26,Debit,Apple Pay,In-store,Hatfield,1470.01
+T00367,2026-05-23,23:52,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,18.52,Debit,Apple Pay,App,Hatfield,1451.49
+T00368,2026-05-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,1449.50
+T00369,2026-05-24,11:23,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,27.15,Debit,Debit card,In-store,Hatfield,1422.35
+T00370,2026-05-24,16:49,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,5.85,Debit,Apple Pay,In-store,Hatfield,1416.50
+T00371,2026-05-24,16:57,SUPERDRUG HATFIELD,Superdrug,Personal Care,Men's skincare,19.07,Debit,Apple Pay,In-store,Hatfield,1397.43
+T00372,2026-05-24,17:54,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,1391.43
+T00373,2026-05-26,07:12,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,1360.23
+T00374,2026-05-26,08:14,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,1356.28
+T00375,2026-05-27,11:53,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,3.42,Debit,Apple Pay,In-store,Hatfield,1352.86
+T00376,2026-05-27,14:21,HOLLAND & BARRETT HATFIELD,Holland & Barrett,Health & Fitness,"Protein (small tub, in-store)",24.99,Debit,Apple Pay,In-store,Hatfield,1327.87
+T00377,2026-05-27,16:46,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,23.56,Debit,Apple Pay,In-store,Hatfield,1304.31
+T00378,2026-05-28,06:05,FASTER PAYMENT RECEIVED PAYROLL - INTERNSHIP,Internship payroll,Income,Salary,1840.00,Credit,Bank transfer,Online,-,3144.31
+T00379,2026-05-28,07:17,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,3115.41
+T00380,2026-05-28,08:23,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,3111.96
+T00381,2026-05-28,13:53,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,4.31,Debit,Apple Pay,In-store,Milton Keynes,3107.65
+T00382,2026-05-28,18:20,BOOTS HATFIELD,Boots,Personal Care,Men's skincare,9.04,Debit,Apple Pay,In-store,Hatfield,3098.61
+T00383,2026-05-28,18:24,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,6.25,Debit,Apple Pay,In-store,Hatfield,3092.36
+T00384,2026-05-29,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,390.24,Credit,Bank transfer,Online,-,3482.60
+T00385,2026-05-29,19:57,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,22.41,Debit,Apple Pay,App,Hatfield,3460.19
+T00386,2026-05-30,11:33,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,4.71,Debit,Apple Pay,In-store,Hatfield,3455.48
+T00387,2026-05-30,12:00,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,13.40,Debit,Apple Pay,In-store,Hatfield,3442.08
+T00388,2026-05-30,15:12,JOHN LEWIS SKINCARE WATFORD,John Lewis,Personal Care,Men's skincare,68.00,Debit,Debit card,In-store,Watford,3374.08
+T00389,2026-05-31,12:50,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,32.35,Debit,Debit card,In-store,Hatfield,3341.73
+T00390,2026-05-31,21:43,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,12.92,Debit,Apple Pay,In-store,Hatfield,3328.81
+T00391,2026-06-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,2753.81
+T00392,2026-06-01,13:02,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,3.30,Debit,Apple Pay,In-store,Hatfield,2750.51
+T00393,2026-06-02,07:23,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,2721.61
+T00394,2026-06-02,08:51,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,2718.16
+T00395,2026-06-02,13:47,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.61,Debit,Apple Pay,In-store,Milton Keynes,2711.55
+T00396,2026-06-02,14:46,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,4.12,Debit,Apple Pay,In-store,Hatfield,2707.43
+T00397,2026-06-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,44.00,Debit,Direct debit,Online,-,2663.43
+T00398,2026-06-04,07:06,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,2634.53
+T00399,2026-06-04,08:27,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,2630.58
+T00400,2026-06-04,13:29,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,8.04,Debit,Apple Pay,In-store,Milton Keynes,2622.54
+T00401,2026-06-04,15:41,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,16.12,Debit,Apple Pay,In-store,Hatfield,2606.42
+T00402,2026-06-04,19:21,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,15.55,Debit,Apple Pay,In-store,Hatfield,2590.87
+T00403,2026-06-04,22:41,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),42.63,Debit,Debit card,Online,Online,2548.24
+T00404,2026-06-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,2536.24
+T00405,2026-06-06,13:30,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,17.22,Debit,Apple Pay,In-store,Hatfield,2519.02
+T00406,2026-06-06,14:10,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,4.80,Debit,Apple Pay,In-store,Hatfield,2514.22
+T00407,2026-06-06,23:24,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,28.65,Debit,Apple Pay,App,Hatfield,2485.57
+T00408,2026-06-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,2460.58
+T00409,2026-06-07,10:49,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,35.68,Debit,Debit card,In-store,Hatfield,2424.90
+T00410,2026-06-07,17:13,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2418.90
+T00411,2026-06-09,04:31,OPENAI *CHATGPT SUBSCR,ChatGPT Plus,Subscriptions,AI tools,20.00,Debit,Debit card,Online,-,2398.90
+T00412,2026-06-09,07:11,TRAINLINE.COM,Trainline,Transport,Train (commute),31.20,Debit,Apple Pay,App,Online,2367.70
+T00413,2026-06-09,08:45,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.95,Debit,Apple Pay,In-store,Milton Keynes,2363.75
+T00414,2026-06-09,13:49,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,6.17,Debit,Apple Pay,In-store,Milton Keynes,2357.58
+T00415,2026-06-09,20:35,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,24.25,Debit,Apple Pay,App,Hatfield,2333.33
+T00416,2026-06-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,2322.34
+T00417,2026-06-11,07:12,TRAINLINE.COM,Trainline,Transport,Train (commute),28.90,Debit,Apple Pay,App,Online,2293.44
+T00418,2026-06-11,08:14,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,2289.79
+T00419,2026-06-11,13:45,TESCO EXPRESS MK,Tesco Express,Eating Out,Lunch,8.25,Debit,Apple Pay,In-store,Milton Keynes,2281.54
+T00420,2026-06-11,16:29,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,7.37,Debit,Apple Pay,In-store,Hatfield,2274.17
+T00421,2026-06-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,2261.18
+T00422,2026-06-12,15:52,CARD FACTORY / GIFT,Gifts,Gifts,Birthday gifts,38.75,Debit,Debit card,In-store,Hatfield,2222.43
+T00423,2026-06-12,16:19,ASOS.COM,ASOS,Clothing,Clothing,48.29,Debit,Debit card,Online,Online,2174.14
+T00424,2026-06-12,18:20,BOOTS HATFIELD,Boots,Personal Care,Men's skincare,14.28,Debit,Apple Pay,In-store,Hatfield,2159.86
+T00425,2026-06-12,19:01,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,14.71,Debit,Apple Pay,App,Hatfield,2145.15
+T00426,2026-06-12,22:01,WETHERSPOON ST ALBANS,Wetherspoon,Entertainment,Social & cinema,30.68,Debit,Apple Pay,In-store,Hatfield,2114.47
+T00427,2026-06-13,13:17,UBER *TRIP,Uber,Transport,Local & London travel,11.74,Debit,Apple Pay,App,London,2102.73
+T00428,2026-06-13,17:14,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,8.32,Debit,Apple Pay,In-store,Hatfield,2094.41
+T00429,2026-06-13,18:15,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,13.32,Debit,Apple Pay,In-store,Hatfield,2081.09
+T00430,2026-06-14,11:26,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,35.73,Debit,Debit card,In-store,Hatfield,2045.36
+T00431,2026-06-14,13:08,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,7.50,Debit,Apple Pay,In-store,Hatfield,2037.86
+T00432,2026-06-14,15:43,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,2022.86
+T00433,2026-06-14,17:32,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2016.86
+T00434,2026-06-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,2007.87
+T00435,2026-06-15,11:29,HOLLAND & BARRETT HATFIELD,Holland & Barrett,Health & Fitness,"Protein (small tub, in-store)",21.99,Debit,Apple Pay,In-store,Hatfield,1985.88
+T00436,2026-06-15,11:35,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,29.70,Debit,Debit card,In-store,Hatfield,1956.18
+T00437,2026-06-15,13:17,UBER *TRIP,Uber,Transport,Local & London travel,8.55,Debit,Apple Pay,App,Hatfield,1947.63
+T00438,2026-06-15,20:54,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,8.98,Debit,Apple Pay,In-store,Hatfield,1938.65
+T00439,2026-06-16,07:17,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1911.25
+T00440,2026-06-16,08:31,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1907.80
+T00441,2026-06-16,08:45,GREAT NORTHERN,Great Northern,Transport,Local & London travel,18.04,Debit,Apple Pay,App,London,1889.76
+T00442,2026-06-16,12:12,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,6.37,Debit,Apple Pay,In-store,Milton Keynes,1883.39
+T00443,2026-06-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,1880.40
+T00444,2026-06-18,13:31,BOOTS HATFIELD,Boots,Personal Care,Men's skincare,22.03,Debit,Apple Pay,Online,Hatfield,1858.37
+T00445,2026-06-18,20:03,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,21.26,Debit,Apple Pay,App,Hatfield,1837.11
+T00446,2026-06-19,21:54,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,18.29,Debit,Debit card,Online,Online,1818.82
+T00447,2026-06-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1805.83
+T00448,2026-06-21,11:53,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,24.87,Debit,Debit card,In-store,Hatfield,1780.96
+T00449,2026-06-21,17:40,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,1774.96
+T00450,2026-06-21,23:54,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,30.33,Debit,Apple Pay,App,Hatfield,1744.63
+T00451,2026-06-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,1738.64
+T00452,2026-06-22,16:18,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,4.73,Debit,Apple Pay,In-store,Hatfield,1733.91
+T00453,2026-06-22,19:43,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,12.14,Debit,Apple Pay,In-store,Hatfield,1721.77
+T00454,2026-06-23,07:20,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1694.37
+T00455,2026-06-23,08:05,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,1690.72
+T00456,2026-06-23,13:16,GREGGS MILTON KEYNES,Greggs,Eating Out,Lunch,7.84,Debit,Apple Pay,In-store,Milton Keynes,1682.88
+T00457,2026-06-23,13:29,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,20.99,Debit,Apple Pay,In-store,Hatfield,1661.89
+T00458,2026-06-23,20:10,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,9.00,Debit,Apple Pay,In-store,Hatfield,1652.89
+T00459,2026-06-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,1650.90
+T00460,2026-06-24,21:59,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,28.34,Debit,Apple Pay,App,Hatfield,1622.56
+T00461,2026-06-25,07:13,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,1595.16
+T00462,2026-06-25,08:19,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.45,Debit,Apple Pay,In-store,Milton Keynes,1591.71
+T00463,2026-06-25,12:48,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,4.24,Debit,Apple Pay,In-store,Milton Keynes,1587.47
+T00464,2026-06-26,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,369.39,Credit,Bank transfer,Online,-,1956.86
+T00465,2026-06-26,21:03,THE RED LION HATFIELD,The Red Lion (pub),Entertainment,Social & cinema,12.19,Debit,Apple Pay,In-store,Hatfield,1944.67
+T00466,2026-06-27,09:48,ASOS.COM REFUND,ASOS,Clothing,Refund,24.15,Credit,Debit card,Online,Online,1968.82
+T00467,2026-06-27,14:21,BOOTS.COM,Boots,Personal Care,Men's skincare,8.30,Debit,Apple Pay,Online,Hatfield,1960.52
+T00468,2026-06-27,21:16,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,28.98,Debit,Apple Pay,App,Hatfield,1931.54
+T00469,2026-06-28,06:05,FASTER PAYMENT RECEIVED PAYROLL - INTERNSHIP,Internship payroll,Income,Salary,1840.00,Credit,Bank transfer,Online,-,3771.54
+T00470,2026-06-28,12:15,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,37.23,Debit,Debit card,In-store,Hatfield,3734.31
+T00471,2026-06-28,16:23,BOOTS HATFIELD,Boots,Personal Care,Body wash & toiletries,4.61,Debit,Apple Pay,In-store,Hatfield,3729.70
+T00472,2026-06-28,17:33,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,3723.70
+T00473,2026-06-28,23:19,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,29.26,Debit,Apple Pay,App,Hatfield,3694.44
+T00474,2026-06-29,16:39,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,16.40,Debit,Apple Pay,In-store,Hatfield,3678.04
+T00475,2026-06-30,07:23,TRAINLINE.COM,Trainline,Transport,Train (commute),27.40,Debit,Apple Pay,App,Online,3650.64
+T00476,2026-06-30,08:59,COSTA COFFEE MILTON KEYNES,Costa Coffee,Eating Out,Coffee,3.65,Debit,Apple Pay,In-store,Milton Keynes,3646.99
+T00477,2026-06-30,13:01,PRET A MANGER MK,Pret A Manger,Eating Out,Lunch,4.60,Debit,Apple Pay,In-store,Milton Keynes,3642.39
+T00478,2026-06-30,16:06,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,16.05,Debit,Apple Pay,In-store,Hatfield,3626.34
+T00479,2026-07-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,3051.34
+T00480,2026-07-01,16:09,SUPERDRUG HATFIELD,Superdrug,Personal Care,Body wash & toiletries,9.44,Debit,Apple Pay,In-store,Hatfield,3041.90
+T00481,2026-07-01,19:09,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,30.96,Debit,Debit card,Online,Online,3010.94
+T00482,2026-07-01,20:56,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,7.54,Debit,Apple Pay,In-store,Hatfield,3003.40
+T00483,2026-07-01,22:16,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,18.69,Debit,Apple Pay,App,Hatfield,2984.71
+T00484,2026-07-02,14:40,M&S CLOTHING LONDON,M&S,Clothing,Interview outfit,89.00,Debit,Debit card,In-store,London,2895.71
+T00485,2026-07-02,20:15,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,12.37,Debit,Apple Pay,In-store,Hatfield,2883.34
+T00486,2026-07-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,44.00,Debit,Direct debit,Online,-,2839.34
+T00487,2026-07-03,13:42,CLARKS SHOES LONDON,Clarks,Shoes,Formal shoes (interviews),79.00,Debit,Debit card,In-store,London,2760.34
+T00488,2026-07-03,21:15,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,29.00,Debit,Apple Pay,App,Hatfield,2731.34
+T00489,2026-07-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,2719.34
+T00490,2026-07-05,12:46,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,25.66,Debit,Debit card,In-store,Hatfield,2693.68
+T00491,2026-07-05,17:11,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2687.68
+T00492,2026-07-06,15:07,TFL TRAVEL CH,TfL,Transport,Local & London travel,4.49,Debit,Apple Pay,App,London,2683.19
+T00493,2026-07-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,2658.20
+T00494,2026-07-08,21:41,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,13.65,Debit,Apple Pay,In-store,Hatfield,2644.55
+T00495,2026-07-09,04:31,OPENAI *CHATGPT SUBSCR,ChatGPT Plus,Subscriptions,AI tools,20.00,Debit,Debit card,Online,-,2624.55
+T00496,2026-07-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,2613.56
+T00497,2026-07-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,2600.57
+T00498,2026-07-12,11:32,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,28.43,Debit,Debit card,In-store,Hatfield,2572.14
+T00499,2026-07-12,17:04,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2566.14
+T00500,2026-07-12,19:14,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,5.34,Debit,Apple Pay,In-store,Hatfield,2560.80
+T00501,2026-07-13,21:25,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,7.19,Debit,Apple Pay,In-store,Hatfield,2553.61
+T00502,2026-07-14,11:28,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,2538.61
+T00503,2026-07-14,21:11,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),34.13,Debit,Debit card,Online,Online,2504.48
+T00504,2026-07-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,2495.49
+T00505,2026-07-16,04:32,LINKEDIN PREMIUM CAREER,LinkedIn Premium,Subscriptions,Career,29.99,Debit,Debit card,Online,-,2465.50
+T00506,2026-07-17,19:27,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,6.55,Debit,Apple Pay,In-store,Hatfield,2458.95
+T00507,2026-07-17,22:35,THE RED LION HATFIELD,The Red Lion (pub),Entertainment,Social & cinema,15.70,Debit,Apple Pay,In-store,Hatfield,2443.25
+T00508,2026-07-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,2440.26
+T00509,2026-07-19,10:42,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,26.43,Debit,Debit card,In-store,Hatfield,2413.83
+T00510,2026-07-19,17:56,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2407.83
+T00511,2026-07-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,2394.84
+T00512,2026-07-20,13:02,ASOS.COM,ASOS,Clothing,Clothing,18.74,Debit,Debit card,Online,Online,2376.10
+T00513,2026-07-20,18:01,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,9.52,Debit,Apple Pay,In-store,Hatfield,2366.58
+T00514,2026-07-20,18:18,HOLLAND & BARRETT HATFIELD,Holland & Barrett,Health & Fitness,"Protein (small tub, in-store)",24.99,Debit,Apple Pay,In-store,Hatfield,2341.59
+T00515,2026-07-20,19:08,WATERSTONES,Waterstones,Learning & Career,Books,24.98,Debit,Debit card,Online,Online,2316.61
+T00516,2026-07-21,20:43,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,13.30,Debit,Apple Pay,In-store,Hatfield,2303.31
+T00517,2026-07-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,2297.32
+T00518,2026-07-22,21:40,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,6.29,Debit,Apple Pay,In-store,Hatfield,2291.03
+T00519,2026-07-23,08:08,UBER *TRIP,Uber,Transport,Local & London travel,4.01,Debit,Apple Pay,App,Hatfield,2287.02
+T00520,2026-07-23,13:28,SUPERDRUG HATFIELD,Superdrug,Personal Care,Body wash & toiletries,6.14,Debit,Apple Pay,In-store,Hatfield,2280.88
+T00521,2026-07-23,20:27,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,22.96,Debit,Apple Pay,App,Hatfield,2257.92
+T00522,2026-07-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,2255.93
+T00523,2026-07-24,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,1257.43,Credit,Bank transfer,Online,-,3513.36
+T00524,2026-07-24,12:40,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,21.70,Debit,Apple Pay,In-store,Hatfield,3491.66
+T00525,2026-07-24,18:16,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,16.12,Debit,Debit card,Online,Online,3475.54
+T00526,2026-07-24,23:31,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,30.01,Debit,Apple Pay,App,Hatfield,3445.53
+T00527,2026-07-25,21:26,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,23.46,Debit,Apple Pay,App,Hatfield,3422.07
+T00528,2026-07-25,21:57,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,12.44,Debit,Apple Pay,In-store,Hatfield,3409.63
+T00529,2026-07-26,10:34,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,31.08,Debit,Debit card,In-store,Hatfield,3378.55
+T00530,2026-07-27,20:23,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,22.59,Debit,Apple Pay,App,Hatfield,3355.96
+T00531,2026-07-29,09:13,ASOS.COM REFUND,ASOS,Clothing,Refund,9.37,Credit,Debit card,Online,Online,3365.33
+T00532,2026-07-29,14:30,BOOTS HATFIELD,Boots,Health & Fitness,Protein bars & shakes,6.14,Debit,Apple Pay,In-store,Hatfield,3359.19
+T00533,2026-07-29,20:56,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,8.69,Debit,Apple Pay,In-store,Hatfield,3350.50
+T00534,2026-07-30,20:21,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,25.80,Debit,Apple Pay,App,Hatfield,3324.70
+T00535,2026-07-31,22:33,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,28.75,Debit,Apple Pay,In-store,Hatfield,3295.95
+T00536,2026-08-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,2720.95
+T00537,2026-08-01,20:37,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,6.80,Debit,Apple Pay,In-store,Hatfield,2714.15
+T00538,2026-08-02,12:22,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,28.28,Debit,Debit card,In-store,Hatfield,2685.87
+T00539,2026-08-02,17:38,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2679.87
+T00540,2026-08-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,44.00,Debit,Direct debit,Online,-,2635.87
+T00541,2026-08-04,12:15,SUPERDRUG HATFIELD,Superdrug,Personal Care,Body wash & toiletries,5.15,Debit,Apple Pay,In-store,Hatfield,2630.72
+T00542,2026-08-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,2618.72
+T00543,2026-08-05,13:17,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,20.00,Debit,Cash,In-store,Hatfield,2598.72
+T00544,2026-08-05,23:11,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,23.00,Debit,Apple Pay,App,Hatfield,2575.72
+T00545,2026-08-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,2550.73
+T00546,2026-08-07,14:38,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,6.14,Debit,Apple Pay,In-store,Hatfield,2544.59
+T00547,2026-08-08,18:27,TESCO STORES HATFIELD,Tesco,Personal Care,Body wash & toiletries,4.13,Debit,Apple Pay,In-store,Hatfield,2540.46
+T00548,2026-08-08,18:28,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,6.57,Debit,Apple Pay,In-store,Hatfield,2533.89
+T00549,2026-08-08,22:12,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,26.82,Debit,Apple Pay,App,Hatfield,2507.07
+T00550,2026-08-09,04:31,OPENAI *CHATGPT SUBSCR,ChatGPT Plus,Subscriptions,AI tools,20.00,Debit,Debit card,Online,-,2487.07
+T00551,2026-08-09,10:36,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,43.18,Debit,Debit card,In-store,Hatfield,2443.89
+T00552,2026-08-09,17:33,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2437.89
+T00553,2026-08-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,2426.90
+T00554,2026-08-10,15:05,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,5.02,Debit,Apple Pay,In-store,Hatfield,2421.88
+T00555,2026-08-10,19:08,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,27.84,Debit,Apple Pay,App,Hatfield,2394.04
+T00556,2026-08-11,16:24,UBER *TRIP,Uber,Transport,Local & London travel,5.59,Debit,Apple Pay,App,London,2388.45
+T00557,2026-08-11,21:59,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,12.43,Debit,Apple Pay,In-store,Hatfield,2376.02
+T00558,2026-08-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,2363.03
+T00559,2026-08-12,22:52,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,17.31,Debit,Apple Pay,App,Hatfield,2345.72
+T00560,2026-08-13,11:31,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,3.21,Debit,Apple Pay,In-store,Hatfield,2342.51
+T00561,2026-08-13,19:29,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,12.64,Debit,Apple Pay,In-store,Hatfield,2329.87
+T00562,2026-08-14,09:15,LNER TICKETS,LNER,Travel,Weekend trip (Edinburgh),86.40,Debit,Debit card,Online,Online,2243.47
+T00563,2026-08-14,11:34,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,2228.47
+T00564,2026-08-14,18:42,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,5.68,Debit,Apple Pay,In-store,Hatfield,2222.79
+T00565,2026-08-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,2213.80
+T00566,2026-08-15,12:02,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,3.11,Debit,Apple Pay,In-store,Hatfield,2210.69
+T00567,2026-08-15,16:00,PREMIER INN EDINBURGH,Premier Inn,Travel,Weekend trip (Edinburgh),118.00,Debit,Debit card,Online,Edinburgh,2092.69
+T00568,2026-08-15,19:30,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,13.33,Debit,Apple Pay,In-store,Hatfield,2079.36
+T00569,2026-08-16,00:54,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,23.60,Debit,Apple Pay,App,Hatfield,2055.76
+T00570,2026-08-16,04:32,LINKEDIN PREMIUM CAREER,LinkedIn Premium,Subscriptions,Career,29.99,Debit,Debit card,Online,-,2025.77
+T00571,2026-08-16,11:00,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,33.78,Debit,Debit card,In-store,Hatfield,1991.99
+T00572,2026-08-16,17:41,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,1985.99
+T00573,2026-08-16,18:53,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,6.74,Debit,Apple Pay,In-store,Hatfield,1979.25
+T00574,2026-08-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,1976.26
+T00575,2026-08-19,20:57,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,10.07,Debit,Apple Pay,In-store,Hatfield,1966.19
+T00576,2026-08-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1953.20
+T00577,2026-08-21,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,1232.13,Credit,Bank transfer,Online,-,3185.33
+T00578,2026-08-21,11:38,UBER *TRIP,Uber,Transport,Local & London travel,15.00,Debit,Apple Pay,App,Hatfield,3170.33
+T00579,2026-08-21,18:07,BOOTS HATFIELD,Boots,Personal Care,Men's skincare,31.80,Debit,Apple Pay,Online,Hatfield,3138.53
+T00580,2026-08-21,18:16,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,30.95,Debit,Debit card,Online,Online,3107.58
+T00581,2026-08-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,3101.59
+T00582,2026-08-23,12:54,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,37.66,Debit,Debit card,In-store,Hatfield,3063.93
+T00583,2026-08-23,17:43,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,3057.93
+T00584,2026-08-23,21:24,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,9.94,Debit,Apple Pay,In-store,Hatfield,3047.99
+T00585,2026-08-23,23:13,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,27.69,Debit,Apple Pay,App,Hatfield,3020.30
+T00586,2026-08-23,23:52,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,26.06,Debit,Debit card,Online,Online,2994.24
+T00587,2026-08-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,2992.25
+T00588,2026-08-24,18:09,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,21.90,Debit,Debit card,Online,Online,2970.35
+T00589,2026-08-25,22:59,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),41.26,Debit,Debit card,Online,Online,2929.09
+T00590,2026-08-26,21:52,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,16.12,Debit,Apple Pay,In-store,Hatfield,2912.97
+T00591,2026-08-26,22:11,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,21.70,Debit,Apple Pay,App,Hatfield,2891.27
+T00592,2026-08-27,20:22,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,30.77,Debit,Apple Pay,App,Hatfield,2860.50
+T00593,2026-08-28,11:32,SUPERDRUG HATFIELD,Superdrug,Personal Care,Body wash & toiletries,8.82,Debit,Apple Pay,In-store,Hatfield,2851.68
+T00594,2026-08-28,18:51,TFL TRAVEL CH,TfL,Transport,Local & London travel,7.30,Debit,Apple Pay,App,Hatfield,2844.38
+T00595,2026-08-28,20:51,THE RED LION HATFIELD,The Red Lion (pub),Entertainment,Social & cinema,10.65,Debit,Apple Pay,In-store,Hatfield,2833.73
+T00596,2026-08-28,23:29,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,23.53,Debit,Apple Pay,App,Hatfield,2810.20
+T00597,2026-08-29,17:31,JD SPORTS FASHION,JD Sports,Shoes,Trainers,110.00,Debit,Debit card,Online,Online,2700.20
+T00598,2026-08-29,23:43,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,26.52,Debit,Apple Pay,App,Hatfield,2673.68
+T00599,2026-08-30,10:38,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,39.91,Debit,Debit card,In-store,Hatfield,2633.77
+T00600,2026-08-30,12:49,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,7.51,Debit,Apple Pay,In-store,Hatfield,2626.26
+T00601,2026-08-30,17:40,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,15.01,Debit,Apple Pay,In-store,Hatfield,2611.25
+T00602,2026-08-30,17:52,HATFIELD CC MATCH FEE,Cricket club,Sport & Hobbies,Match fees & teas,6.00,Debit,Apple Pay,In-store,Hatfield,2605.25
+T00603,2026-09-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,2030.25
+T00604,2026-09-01,12:32,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,21.08,Debit,Apple Pay,In-store,Hatfield,2009.17
+T00605,2026-09-02,16:36,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,10.46,Debit,Apple Pay,In-store,Hatfield,1998.71
+T00606,2026-09-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,44.00,Debit,Direct debit,Online,-,1954.71
+T00607,2026-09-04,20:40,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,10.71,Debit,Apple Pay,In-store,Hatfield,1944.00
+T00608,2026-09-04,22:06,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,18.23,Debit,Apple Pay,App,Hatfield,1925.77
+T00609,2026-09-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,1913.77
+T00610,2026-09-06,12:18,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,24.31,Debit,Debit card,In-store,Hatfield,1889.46
+T00611,2026-09-06,15:36,BOOTS HATFIELD,Boots,Personal Care,Body wash & toiletries,3.86,Debit,Apple Pay,In-store,Hatfield,1885.60
+T00612,2026-09-06,19:40,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,8.66,Debit,Apple Pay,In-store,Hatfield,1876.94
+T00613,2026-09-06,20:02,COURSERA,Coursera,Learning & Career,Certificate,39.00,Debit,Debit card,Online,Online,1837.94
+T00614,2026-09-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,1812.95
+T00615,2026-09-07,20:20,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,24.39,Debit,Debit card,Online,Online,1788.56
+T00616,2026-09-09,04:31,OPENAI *CHATGPT SUBSCR,ChatGPT Plus,Subscriptions,AI tools,20.00,Debit,Debit card,Online,-,1768.56
+T00617,2026-09-09,21:14,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,32.11,Debit,Debit card,Online,Online,1736.45
+T00618,2026-09-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,1725.46
+T00619,2026-09-11,16:40,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,7.11,Debit,Apple Pay,In-store,Hatfield,1718.35
+T00620,2026-09-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1705.36
+T00621,2026-09-13,10:13,TESCO STORES HATFIELD,Tesco,Personal Care,Body wash & toiletries,7.56,Debit,Apple Pay,In-store,Hatfield,1697.80
+T00622,2026-09-13,12:45,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,44.97,Debit,Debit card,In-store,Hatfield,1652.83
+T00623,2026-09-14,11:30,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,1637.83
+T00624,2026-09-14,16:40,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,4.73,Debit,Apple Pay,In-store,Hatfield,1633.10
+T00625,2026-09-14,19:14,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,7.45,Debit,Apple Pay,In-store,Hatfield,1625.65
+T00626,2026-09-14,21:07,UBER *TRIP,Uber,Transport,Local & London travel,4.63,Debit,Apple Pay,App,Hatfield,1621.02
+T00627,2026-09-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,1612.03
+T00628,2026-09-15,18:02,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,26.96,Debit,Debit card,Online,Online,1585.07
+T00629,2026-09-16,04:32,LINKEDIN PREMIUM CAREER,LinkedIn Premium,Subscriptions,Career,29.99,Debit,Debit card,Online,-,1555.08
+T00630,2026-09-16,22:50,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,16.82,Debit,Apple Pay,App,Hatfield,1538.26
+T00631,2026-09-17,16:12,CASH WITHDRAWAL LINK ATM,Cash withdrawal,Cash,ATM,30.00,Debit,Cash,In-store,Hatfield,1508.26
+T00632,2026-09-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,1505.27
+T00633,2026-09-18,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,1197.26,Credit,Bank transfer,Online,-,2702.53
+T00634,2026-09-18,12:28,CARD FACTORY / GIFT,Gifts,Gifts,Birthday gifts,18.36,Debit,Debit card,In-store,Hatfield,2684.17
+T00635,2026-09-18,23:07,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,21.85,Debit,Apple Pay,App,Hatfield,2662.32
+T00636,2026-09-19,20:43,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,11.77,Debit,Apple Pay,In-store,Hatfield,2650.55
+T00637,2026-09-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,2637.56
+T00638,2026-09-20,11:03,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,26.66,Debit,Debit card,In-store,Hatfield,2610.90
+T00639,2026-09-20,20:36,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,23.70,Debit,Debit card,Online,Online,2587.20
+T00640,2026-09-20,22:44,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,17.29,Debit,Apple Pay,App,Hatfield,2569.91
+T00641,2026-09-21,12:17,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,28.36,Debit,Debit card,In-store,Hatfield,2541.55
+T00642,2026-09-21,19:25,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,11.72,Debit,Debit card,Online,Online,2529.83
+T00643,2026-09-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,2523.84
+T00644,2026-09-23,12:01,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,13.08,Debit,Apple Pay,In-store,Hatfield,2510.76
+T00645,2026-09-23,20:33,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,15.47,Debit,Apple Pay,In-store,Hatfield,2495.29
+T00646,2026-09-24,00:17,ASOS.COM,ASOS,Clothing,Clothing,18.03,Debit,Debit card,Online,Online,2477.26
+T00647,2026-09-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,2475.27
+T00648,2026-09-24,08:50,GREAT NORTHERN,Great Northern,Transport,Local & London travel,10.15,Debit,Apple Pay,App,London,2465.12
+T00649,2026-09-24,18:48,TESCO STORES HATFIELD,Tesco,Personal Care,Body wash & toiletries,4.77,Debit,Apple Pay,In-store,Hatfield,2460.35
+T00650,2026-09-25,12:56,TESCO EXPRESS HATFIELD,Tesco Express,Health & Fitness,Protein bars & shakes,4.02,Debit,Apple Pay,In-store,Hatfield,2456.33
+T00651,2026-09-25,18:09,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,16.03,Debit,Apple Pay,In-store,Hatfield,2440.30
+T00652,2026-09-26,17:13,NANDOS HATFIELD,Nando's,Eating Out,Restaurants & fast food,16.49,Debit,Apple Pay,In-store,Hatfield,2423.81
+T00653,2026-09-26,22:52,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,15.91,Debit,Apple Pay,App,Hatfield,2407.90
+T00654,2026-09-27,10:56,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,25.99,Debit,Debit card,In-store,Hatfield,2381.91
+T00655,2026-09-29,19:26,JUST EAT.CO.UK,Just Eat,Eating Out,Takeaway delivery,16.62,Debit,Apple Pay,App,Hatfield,2365.29
+T00656,2026-09-30,20:47,STEAM GAMES,Steam,Entertainment,Games,27.40,Debit,Debit card,Online,Online,2337.89
+T00657,2026-09-30,23:39,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,16.70,Debit,Apple Pay,App,Hatfield,2321.19
+T00658,2026-10-01,07:00,STANDING ORDER HOUSE SHARE RENT,Landlord (house share),Housing & Bills,Rent,575.00,Debit,Standing order,Online,Hatfield,1746.19
+T00659,2026-10-01,16:15,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,14.75,Debit,Apple Pay,In-store,Hatfield,1731.44
+T00660,2026-10-02,11:46,BOOTS.COM,Boots,Personal Care,Men's skincare,27.86,Debit,Apple Pay,Online,Hatfield,1703.58
+T00661,2026-10-03,07:02,DD OCTOPUS ENERGY SHARE,Energy & broadband share,Housing & Bills,Utilities,44.00,Debit,Direct debit,Online,-,1659.58
+T00662,2026-10-03,18:03,GREGGS HATFIELD,Greggs,Eating Out,Restaurants & fast food,23.35,Debit,Apple Pay,In-store,Hatfield,1636.23
+T00663,2026-10-03,19:20,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,8.85,Debit,Apple Pay,In-store,Hatfield,1627.38
+T00664,2026-10-03,20:25,UBER *TRIP,Uber,Transport,Local & London travel,18.86,Debit,Apple Pay,App,Hatfield,1608.52
+T00665,2026-10-03,23:28,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,29.12,Debit,Apple Pay,App,Hatfield,1579.40
+T00666,2026-10-04,10:49,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,24.39,Debit,Debit card,In-store,Hatfield,1555.01
+T00667,2026-10-05,07:04,DD GIFFGAFF,giffgaff,Housing & Bills,Mobile,12.00,Debit,Direct debit,Online,-,1543.01
+T00668,2026-10-05,10:09,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,26.83,Debit,Debit card,In-store,Hatfield,1516.18
+T00669,2026-10-05,16:24,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,6.32,Debit,Apple Pay,In-store,Hatfield,1509.86
+T00670,2026-10-05,22:15,STEAM GAMES,Steam,Entertainment,Games,30.74,Debit,Debit card,Online,Online,1479.12
+T00671,2026-10-06,09:35,ASOS.COM REFUND,ASOS,Clothing,Refund,18.03,Credit,Debit card,Online,Online,1497.15
+T00672,2026-10-06,20:08,MYPROTEIN.COM,Myprotein,Health & Fitness,Protein (bulk online),36.65,Debit,Debit card,Online,Online,1460.50
+T00673,2026-10-07,07:06,DD PUREGYM LTD,PureGym,Health & Fitness,Gym membership,24.99,Debit,Direct debit,Online,Hatfield,1435.51
+T00674,2026-10-08,19:20,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,8.66,Debit,Apple Pay,In-store,Hatfield,1426.85
+T00675,2026-10-08,20:17,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,16.15,Debit,Apple Pay,App,Hatfield,1410.70
+T00676,2026-10-09,04:31,OPENAI *CHATGPT SUBSCR,ChatGPT Plus,Subscriptions,AI tools,20.00,Debit,Debit card,Online,-,1390.70
+T00677,2026-10-09,21:53,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,12.05,Debit,Apple Pay,In-store,Hatfield,1378.65
+T00678,2026-10-10,04:30,NETFLIX.COM,Netflix,Subscriptions,Streaming & storage,10.99,Debit,Debit card,Online,-,1367.66
+T00679,2026-10-10,18:07,MCDONALDS HATFIELD,McDonald's,Eating Out,Restaurants & fast food,8.86,Debit,Apple Pay,In-store,Hatfield,1358.80
+T00680,2026-10-10,22:27,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,20.17,Debit,Apple Pay,App,Hatfield,1338.63
+T00681,2026-10-11,10:29,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,30.49,Debit,Debit card,In-store,Hatfield,1308.14
+T00682,2026-10-11,22:34,AMZNMKTPLACE AMAZON.CO.UK,Amazon,Shopping (misc),Household & gadgets,39.56,Debit,Debit card,Online,Online,1268.58
+T00683,2026-10-12,04:30,SPOTIFY UK,Spotify,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,1255.59
+T00684,2026-10-13,12:19,WAGAMAMA ST ALBANS,Wagamama,Eating Out,Restaurants & fast food,10.87,Debit,Apple Pay,In-store,Hatfield,1244.72
+T00685,2026-10-14,13:54,MANE BARBERS HATFIELD,Barber,Personal Care,Haircut,15.00,Debit,Apple Pay,In-store,Hatfield,1229.72
+T00686,2026-10-15,04:30,AMAZON PRIME*UK,Amazon Prime,Subscriptions,Streaming & storage,8.99,Debit,Debit card,Online,-,1220.73
+T00687,2026-10-16,04:32,LINKEDIN PREMIUM CAREER,LinkedIn Premium,Subscriptions,Career,29.99,Debit,Debit card,Online,-,1190.74
+T00688,2026-10-16,06:10,FASTER PAYMENT RECEIVED PAYROLL - RETAIL JOB,Retail job payroll,Income,Wages,1218.08,Credit,Bank transfer,Online,-,2408.82
+T00689,2026-10-16,19:21,ODEON CINEMAS,Odeon,Entertainment,Social & cinema,10.94,Debit,Apple Pay,In-store,Hatfield,2397.88
+T00690,2026-10-16,22:19,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,29.18,Debit,Apple Pay,App,Hatfield,2368.70
+T00691,2026-10-17,00:22,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,18.00,Debit,Apple Pay,App,Hatfield,2350.70
+T00692,2026-10-17,15:54,BOOTS HATFIELD,Boots,Personal Care,Men's skincare,11.50,Debit,Apple Pay,Online,Hatfield,2339.20
+T00693,2026-10-18,00:05,ZARA.COM,Zara,Clothing,Clothing,71.02,Debit,Debit card,Online,Online,2268.18
+T00694,2026-10-18,04:30,APPLE.COM/BILL ICLOUD,Apple iCloud+,Subscriptions,Streaming & storage,2.99,Debit,Debit card,Online,-,2265.19
+T00695,2026-10-18,11:24,ALDI STORES HATFIELD,Aldi,Groceries,Weekly shop,42.40,Debit,Debit card,In-store,Hatfield,2222.79
+T00696,2026-10-18,14:20,UNIQLO LONDON,Uniqlo,Clothing,Winter jacket,59.90,Debit,Apple Pay,In-store,London,2162.89
+T00697,2026-10-18,21:33,SAINSBURYS LOCAL HATFIELD,Sainsbury's Local,Groceries,Top-up shop,15.27,Debit,Apple Pay,In-store,Hatfield,2147.62
+T00698,2026-10-19,11:01,LIDL GB HATFIELD,Lidl,Groceries,Weekly shop,34.82,Debit,Debit card,In-store,Hatfield,2112.80
+T00699,2026-10-19,18:26,CO-OP GROUP HATFIELD,Co-op,Groceries,Top-up shop,6.34,Debit,Apple Pay,In-store,Hatfield,2106.46
+T00700,2026-10-20,04:30,GOOGLE *YOUTUBEPREMIUM,YouTube Premium,Subscriptions,Streaming & storage,12.99,Debit,Debit card,Online,-,2093.47
+T00701,2026-10-20,21:39,UBER *EATS,Uber Eats,Eating Out,Takeaway delivery,14.71,Debit,Apple Pay,App,Hatfield,2078.76
+T00702,2026-10-21,18:02,M&S SIMPLY FOOD HATFIELD,M&S Food,Groceries,Top-up shop,5.54,Debit,Apple Pay,In-store,Hatfield,2073.22
+T00703,2026-10-22,04:30,DISNEYPLUS,Disney+,Subscriptions,Streaming & storage,5.99,Debit,Debit card,Online,-,2067.23
+T00704,2026-10-24,04:30,GOOGLE ONE STORAGE,Google One,Subscriptions,Streaming & storage,1.99,Debit,Debit card,Online,-,2065.24
+T00705,2026-10-24,20:50,DELIVEROO.CO.UK,Deliveroo,Eating Out,Takeaway delivery,23.39,Debit,Apple Pay,App,Hatfield,2041.85
+T00706,2026-10-24,21:03,TESCO EXPRESS HATFIELD,Tesco Express,Groceries,Top-up shop,9.69,Debit,Apple Pay,In-store,Hatfield,2032.16
+T00707,2026-10-25,10:24,TESCO STORES HATFIELD,Tesco,Groceries,Weekly shop,32.01,Debit,Debit card,In-store,Hatfield,2000.15

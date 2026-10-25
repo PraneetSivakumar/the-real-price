@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spending Wrapped 2026</title>
+<style>
+:root { color-scheme: dark; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-snap-type: y mandatory; }
+body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: #fff; background: #111; }
+section { min-height: 100vh; scroll-snap-align: start; display: flex; align-items: center; justify-content: center; padding: 24px 16px; }
+.card { width: 100%; max-width: 720px; }
+.kicker { text-transform: uppercase; letter-spacing: .14em; font-size: .8rem; opacity: .8; margin-bottom: 12px; }
+h1 { font-size: clamp(3rem, 12vw, 6.5rem); line-height: 1; font-weight: 800; margin-bottom: 18px; }
+h2 { font-size: clamp(1.4rem, 4.5vw, 2.2rem); margin-bottom: 18px; }
+.big { font-size: clamp(1.1rem, 3.6vw, 1.5rem); line-height: 1.45; }
+.note { margin-top: 18px; opacity: .8; font-size: .95rem; line-height: 1.5; }
+.page { margin-top: 28px; font-size: .75rem; opacity: .5; }
+.bar { display: grid; grid-template-columns: 130px 1fr 70px; gap: 10px; align-items: center; margin: 8px 0; font-size: .95rem; }
+.track { background: rgba(255,255,255,.12); border-radius: 6px; height: 14px; overflow: hidden; }
+.fill { display: block; height: 100%; border-radius: 6px; }
+.val { text-align: right; font-variant-numeric: tabular-nums; }
+.strip { display: flex; height: 28px; border-radius: 8px; overflow: hidden; margin: 8px 0 14px; }
+.legend { list-style: none; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; font-size: .95rem; }
+.legend i { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 8px; vertical-align: -1px; }
+table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+th, td { text-align: left; padding: 7px 6px; border-bottom: 1px solid rgba(255,255,255,.18); vertical-align: top; }
+th:not(:first-child), td:not(:first-child) { text-align: right; white-space: nowrap; }
+footer { text-align: center; padding: 20px 16px; font-size: .8rem; opacity: .6; background: #111; }
+@media (max-width: 520px) { .bar { grid-template-columns: 96px 1fr 58px; font-size: .85rem; } .legend { grid-template-columns: 1fr; } th, td { font-size: .8rem; } }
+</style></head>
+<body>
+<section style="background:linear-gradient(135deg,#1b1464,#7a1fa2)"><div class="card"><p class="kicker">Your 2026 in money · 1 Jan – 25 Oct</p>
+<h1>£18,246</h1>
+<p class="big">That's <b>1,436 hours</b> of work at £12.71/hour —<br>about <b>191 full shifts</b>.</p><p class="page">1 / 8</p></div></section>
+<section style="background:linear-gradient(135deg,#0b3d2e,#1d7a55)"><div class="card"><p class="kicker">Where it went (excluding rent &amp; bills)</p>
+<h2>Your top categories</h2><div class="bar"><span class="lbl">Groceries</span><span class="track"><span class="fill" style="width:100%;background:#ff6b6b"></span></span><span class="val">£2,615</span></div>
+<div class="bar"><span class="lbl">Eating Out</span><span class="track"><span class="fill" style="width:94%;background:#ff6b6b"></span></span><span class="val">£2,463</span></div>
+<div class="bar"><span class="lbl">Transport</span><span class="track"><span class="fill" style="width:62%;background:#ff6b6b"></span></span><span class="val">£1,624</span></div>
+<div class="bar"><span class="lbl">Health &amp; Fitness</span><span class="track"><span class="fill" style="width:32%;background:#ff6b6b"></span></span><span class="val">£838</span></div>
+<div class="bar"><span class="lbl">Subscriptions</span><span class="track"><span class="fill" style="width:32%;background:#ff6b6b"></span></span><span class="val">£829</span></div>
+<div class="bar"><span class="lbl">Shopping (misc)</span><span class="track"><span class="fill" style="width:24%;background:#ff6b6b"></span></span><span class="val">£636</span></div>
+<p class="note">Rent &amp; bills took another £6,382 (502 hours).</p><p class="page">2 / 8</p></div></section>
+<section style="background:linear-gradient(135deg,#3d0b0b,#a2321f)"><div class="card"><p class="kicker">Your top merchant</p>
+<h1>Trainline</h1>
+<p class="big">50 payments · <b>£1,465</b> · 115 hours</p>
+<p class="note">Runners-up: Uber Eats, Aldi, Tesco.</p><p class="page">3 / 8</p></div></section>
+<section style="background:linear-gradient(135deg,#101b3d,#2f4fa8)"><div class="card"><p class="kicker">Your most expensive hour</p>
+<h1>20:00</h1>
+<p class="big">And after 22:00 you spent <b>£1,672</b> —<br>the <b>late-night tax</b>: 132 hours of work.</p><p class="page">4 / 8</p></div></section>
+<section style="background:linear-gradient(135deg,#3d2a00,#b87900)"><div class="card"><p class="kicker">The payday effect</p>
+<h1>1.6×</h1>
+<p class="big">In the 3 days after payday you spent <b>£34.90/day</b><br>vs <b>£21.53/day</b> the rest of the month.</p>
+<p class="note">Permutation test: a gap this big happens by chance 0.08% of the time.</p><p class="page">5 / 8</p></div></section>
+<section style="background:linear-gradient(135deg,#2a0b3d,#8a2fa8)"><div class="card"><p class="kicker">The after-shift takeaway</p>
+<h1>39 orders</h1>
+<p class="big">Every one of them after 21:00 on a shift day:<br><b>£903</b> = 71 hours — you worked 9.5 shifts to pay for being too tired to cook.</p><p class="page">6 / 8</p></div></section>
+<section style="background:linear-gradient(135deg,#0b2a3d,#1f7aa2)"><div class="card"><p class="kicker">Your spending personality</p>
+<h2>Essential · Investment · Lifestyle · Leakage</h2>
+<div class="strip"><span style="flex:9665.26;background:#3ddc97" title="Essential"></span><span style="flex:756.83;background:#5fa8ff" title="Investment"></span><span style="flex:6528.26;background:#ffd166" title="Lifestyle"></span><span style="flex:1452.65;background:#ff6b6b" title="Leakage"></span></div><ul class="legend"><li><i style="background:#3ddc97"></i>Essential <b>£9,665</b> (53%)</li><li><i style="background:#5fa8ff"></i>Investment <b>£757</b> (4%)</li><li><i style="background:#ffd166"></i>Lifestyle <b>£6,528</b> (35%)</li><li><i style="background:#ff6b6b"></i>Leakage <b>£1,453</b> (8%)</li></ul>
+<p class="note">Income fell 45% after the internship. Spending fell only 22%.</p><p class="page">7 / 8</p></div></section>
+<section style="background:linear-gradient(135deg,#0b3d1f,#2fa85a)"><div class="card"><p class="kicker">The plan</p>
+<h2>5 rules · £1,665 a year · 131 hours back</h2>
+<table><tr><th>Rule</th><th>by 31 Dec</th><th>per year</th><th>hours</th></tr><tr><td>Cancel zombie &amp; duplicate subscriptions (Disney+, Google One)</td><td>£18</td><td>£96</td><td>8 h</td></tr><tr><td>Shift-day meal prep: replace 3 in 4 late takeaways with a £3 prepared meal</td><td>£184</td><td>£1,003</td><td>79 h</td></tr><tr><td>Halve top-up trips; buy it in the weekly shop (assume 25% cheaper there)</td><td>£27</td><td>£146</td><td>11 h</td></tr><tr><td>Protein: bulk only (in-store tubs cost ~3x more per gram)</td><td>£24</td><td>£131</td><td>10 h</td></tr><tr><td>24-hour basket rule for late-night online shopping (assume half never bought)</td><td>£53</td><td>£289</td><td>23 h</td></tr></table>
+<p class="note">Savings runway: at today's rate the balance reaches £0 around <b>15 Mar 2027</b>; with the plan, around <b>21 May 2027</b>. The real fix is income — the job search.</p><p class="page">8 / 8</p></div></section>
+<footer>The Real Price · Spending Wrapped 2026 · built on <b>simulated</b> data modelled on my lifestyle · Praneet Sivakumar</footer>
+</body></html>
